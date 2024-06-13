@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dependencies": "yarn install && bundle install",
-    "dev": "rm -rf _site && bundler exec jekyll serve --incremental --livereload",
+    "dev": "rm -rf _site && bundler exec jekyll serve --incremental --livereload --config _config.yml,_config_dev.yml",
     "build:css": "npx tailwindcss -i ./assets/css/tailwind.scss -o ./assets/css/tailwind.css --minify"
   },
   "author": "jeremyzilar",
