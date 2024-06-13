@@ -1,0 +1,129 @@
+/* _sass/_custom.scss */
+
+body {
+  color: #000;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  // background-color: #e52207 !important;
+}
+
+a {
+  text-decoration: underline;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+header {
+  // position: relative;
+  z-index: 999;
+  .wrap {
+    // position: sticky;
+  }
+  h1 {
+    // font-family: "Helvetica Neue", Arial, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    a {
+      text-decoration: none;
+    }
+  }
+}
+
+.mada {
+  background-color: #fa8368;
+  h2 {
+    text-align: center;
+    font-size: 300px;
+    line-height: 366.3px;
+    font-weight: 500;
+    // font-family: "Helvetica Neue", Arial, sans-serif;
+    color: #bbd2fe;
+  }
+}
+
+section {
+  background-color: #efefef;
+}
+
+.accordion {
+  .card {
+    border-top: 1px #000 solid;
+    cursor: pointer;
+    &:hover {
+      h4 span {
+        border-bottom: 1px #000 solid;
+      }
+    }
+
+    p {
+      margin: 1rem 0 0.5rem 0;
+      width: 90%;
+      display: none;
+    }
+  }
+  .card h4::after {
+    font-weight: 100;
+    font-size: 28px;
+    content: "+";
+    float: right;
+  }
+  .card.active {
+    p {
+      width: 90%;
+      display: block;
+    }
+  }
+}
+
+.donate {
+  p span {
+    display: block;
+    color: #fa8368;
+  }
+}
+
+.vision {
+  height: 959px;
+  background: url("/assets/media/sfai.png") no-repeat center center / cover;
+}
+
+.goals {
+  .goal {
+    // background-color: #efefef;
+    .number {
+      font-size: 90px;
+      font-weight: 400;
+      color: #fa8368;
+    }
+    h4 {
+      padding: 0 0 0.75rem 0;
+      font-size: 21px;
+      font-weight: 700;
+    }
+    p {
+      font-size: 21px;
+      font-weight: 400;
+    }
+    img {
+      margin: 3.5rem 0 0 0;
+    }
+  }
+}
+
+.footer {
+  p span {
+    color: #bbd2fe;
+  }
+  p:first-child span {
+    color: #fa8368;
+  }
+  .madalliance {
+    font-size: 200px;
+    font-weight: 500;
+    color: #fa8368;
+    span {
+      color: #bbd2fe;
+    }
+  }
+}
