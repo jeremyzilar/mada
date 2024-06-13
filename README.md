@@ -1,10 +1,11 @@
-# Brooklyn Rail
-## Singing in Unison
+# MADA
 
+---
 
 ## Development
 
 To set up:
+
 ```
 $ npm run dependencies
 $ npm run init
