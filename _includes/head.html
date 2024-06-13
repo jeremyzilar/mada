@@ -5,11 +5,12 @@
 
   {% seo %}
 
-  <!-- CSS -->
-  <!-- <link
-    href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+  <!-- Tailwind CSS -->
+  <link
     rel="stylesheet"
-  /> -->
+    href="{{ '/assets/css/tailwind.css' | baseurl }}?{{ site.time | date: '%Y%m%j%H%M%S' }}"
+  />
+  <!-- Custom CSS -->
   <link
     rel="stylesheet"
     href="{{ '/assets/css/main.css' | baseurl }}?{{ site.time | date: '%Y%m%j%H%M%S' }}"
