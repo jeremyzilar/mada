@@ -40,7 +40,8 @@ a {
   color: #000000;
 }
 
-section {
+section,
+footer {
   padding: 8rem 10rem;
   background-color: #efefef;
 }
@@ -235,17 +236,26 @@ header {
 #focus {
 }
 
-.footer {
-  p span {
+footer {
+  h3 {
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 37.92px;
+    letter-spacing: 0.02em;
+  }
+  p span.text-blue {
     color: #bbd2fe;
   }
-  p:first-child span {
+  p span.text-pink {
     color: #fa8368;
   }
+
   .madalliance {
-    font-size: 200px;
-    font-weight: 500;
     color: #fa8368;
+    font-size: 181px;
+    font-weight: 600;
+    line-height: 219.37px;
+    text-align: center;
     span {
       color: #bbd2fe;
     }
