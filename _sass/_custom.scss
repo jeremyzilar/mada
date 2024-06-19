@@ -2,6 +2,12 @@
 
 body {
   color: #000;
+  background-color: #000;
+}
+
+.paper {
+  background-color: #000;
+  background-attachment: fixed;
 }
 
 a {
@@ -42,8 +48,21 @@ a {
 
 section,
 footer {
-  padding: 8rem 10rem;
-  background-color: #efefef;
+  // padding: 5rem 1.25rem;
+  // background-color: #efefef;
+
+  // // desktop
+  // @media (min-width: 1025px) {
+  //   padding: 4rem 6rem;
+  // }
+  // // desktop-lg
+  // @media (min-width: 1257px) {
+  //   padding: 6rem 8rem;
+  // }
+  // // widescreen
+  // @media (min-width: 1401px) {
+  //   padding: 8rem 10rem;
+  // }
 }
 
 header {
