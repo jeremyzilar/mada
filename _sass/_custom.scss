@@ -159,6 +159,33 @@ section {
   }
 }
 
+#slides {
+  .slide-text {
+    .nav {
+      .arrow {
+        cursor: pointer;
+      }
+    }
+    h4 {
+      font-size: 24px;
+      font-weight: 900;
+      line-height: 37.92px;
+      letter-spacing: 0.02em;
+    }
+    p,
+    cite {
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 30.78px;
+      letter-spacing: 0.06em;
+    }
+    cite {
+      display: block;
+      font-style: normal;
+    }
+  }
+}
+
 .goals {
   .goal {
     // background-color: #efefef;
