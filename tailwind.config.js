@@ -20,9 +20,15 @@ module.exports = {
       widescreen: "1400px",
     },
     fontFamily: {
-      sans: ["Inter", "Helvetica", "Arial", "ui-sans-serif", "system-ui"],
+      sans: [
+        "Libre Franklin",
+        "Helvetica",
+        "Arial",
+        "ui-sans-serif",
+        "system-ui",
+      ],
       serif: ["var(--font-family-serif)", "Georgia", "ui-serif"],
-      mono: ["var(--font-family-mono)", "SFMono-Regular"],
+      mono: ["DM Mono", "SFMono-Regular", "monospace"],
       display: [
         "Helvetica Neue",
         "Helvetica",
