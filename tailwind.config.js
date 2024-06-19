@@ -8,6 +8,17 @@ module.exports = {
     "./assets/css/**/*.scss",
   ],
   theme: {
+    fontSize: {
+      sm: "0.8rem",
+      base: ["0.875rem", "23.94px"],
+      md: ["0.875rem", "23.94px"],
+      lg: ["1.125rem", "30.78px"],
+      xl: ["1.25rem", "25.28px"],
+      "2xl": ["1.5rem", "29.09px"],
+      "3xl": "2rem",
+      "4xl": ["2.5rem", "48.48px"],
+      "5xl": "3.052rem",
+    },
     fontFamily: {
       sans: [
         "Libre Franklin",
