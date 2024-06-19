@@ -40,6 +40,11 @@ a {
   color: #000000;
 }
 
+section {
+  padding: 8rem 10rem;
+  background-color: #efefef;
+}
+
 header {
   z-index: 999;
   h1 {
@@ -70,10 +75,6 @@ header {
       text-align: center;
     }
   }
-}
-
-section {
-  background-color: #efefef;
 }
 
 .accordion {
@@ -128,14 +129,14 @@ section {
   }
 }
 
-.donate {
+#donate {
   p span {
     display: block;
     color: #fa8368;
   }
 }
 
-.join {
+#join {
   p {
     font-size: 24px;
     font-weight: 400;
@@ -145,22 +146,28 @@ section {
 }
 
 .vision {
-  p {
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 37.68px;
-    letter-spacing: 0.02em;
-  }
-  p.font-mono {
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 30.78px;
-    letter-spacing: 0.06em;
+  padding: 0;
+  .copy {
+    padding: 8rem 10rem;
+    p {
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 37.68px;
+      letter-spacing: 0.02em;
+    }
+    p.font-mono {
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 30.78px;
+      letter-spacing: 0.06em;
+    }
   }
 }
 
 #slides {
+  padding: 0;
   .slide-text {
+    padding: 8rem 10rem;
     .nav {
       .arrow {
         cursor: pointer;
@@ -183,6 +190,9 @@ section {
       display: block;
       font-style: normal;
     }
+  }
+  .slide {
+    padding: 8rem 10rem;
   }
 }
 
