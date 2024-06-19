@@ -149,7 +149,6 @@ header {
 .vision {
   padding: 0;
   .copy {
-    padding: 8rem 10rem;
     p {
       font-size: 24px;
       font-weight: 400;
@@ -166,6 +165,7 @@ header {
 }
 
 #slides {
+  display: none;
   padding: 0;
   .slide-text {
     padding: 8rem 10rem;
