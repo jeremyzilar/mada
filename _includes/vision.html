@@ -2,9 +2,10 @@
   <div class="max-w-full px-0">
     <div class="grid grid-cols-4 tablet:grid-cols-12 gap-0">
       <div class="col-span-4 tablet:col-span-6 bg-[#F9F2EA]">
-        <div class="image">
-          <img src="{{ '/assets/media/image.png' | relative_url }}" />
-        </div>
+        <img
+          class="object-cover h-full w-full"
+          src="{{ '/assets/media/image.png' | relative_url }}"
+        />
       </div>
       <div class="col-span-4 tablet:col-span-6 bg-[#FA8368]">
         <div class="p-40 py-32 space-y-8">
@@ -18,7 +19,9 @@
             Explore the programmatic and architectural vision, developed by our
             MADA Alliance member, MASS Design Group.
           </p>
-          <a href="#" class="btn font-mono inline-block">Learn more</a>
+          <a href="#" class="btn btn-ghost font-mono inline-block"
+            >Learn more</a
+          >
         </div>
       </div>
     </div>
