@@ -1,10 +1,10 @@
-<header id="header" class="bg-[#fa8368]">
-  <div class="flex flex-col items-center justify-between h-full">
+<header id="header" class="relative bg-[#fa8368]">
+  <div class="relative z-20 flex flex-col items-center justify-between h-full">
     <h1
       class="z-10 py-10 pb-2 pt-20 tablet:p-10 w-full font-black text-lg tablet:text-2xl text-center tablet:text-left"
     >
       <a
-        class=""
+        class="no-underline hover:underline underline-offset-4"
         href="{{ site.baseurl }}/"
         accesskey="1"
         title="MADA Home"
@@ -18,7 +18,7 @@
       class="h-full w-full flex items-center min-h-[80vh] tablet:min-h-[80vh] desktop:min-h-[90vh]"
     >
       <h2
-        class="w-full h-full text-[#bbd2fe] text-[148px] tablet:text-[20cqw] text-center font-bold flex items-center justify-center -rotate-90 tablet:rotate-0"
+        class="w-full h-full text-[#bbd2fe] text-[148px] tablet:text-[21cqw] text-center font-semibold flex items-center justify-center -rotate-90 tablet:rotate-0"
       >
         <span>MADA</span>
       </h2>
@@ -167,6 +167,23 @@
       <p class="font-mono text-center text-md tablet:text-lg">
         Santa Fe, New Mexico
       </p>
+    </div>
+  </div>
+  <div class="floating-images h-full">
+    <div
+      class="building w-[40%] max-w-[555px] min-w-[314px] left-0 top-36 tablet:left-auto tablet:right-9 tablet:top-9 absolute"
+    >
+      <img src="{{ '/assets/media/building.png' | relative_url }}" alt="TKTK" />
+    </div>
+    <div
+      class="welder w-[32%] max-w-[314px] min-w-[116px] top-[50%] tablet:top-[28%] right-0 tablet:right-auto tablet:left-9 absolute"
+    >
+      <img src="{{ '/assets/media/welder.png' | relative_url }}" alt="TKTK" />
+    </div>
+    <div
+      class="studio w-[32%] max-w-[277px] min-w-[184px] bottom-[25%] tablet:bottom-[10%] left-0 tablet:left-auto tablet:right-9 tablet:bottom-9 absolute"
+    >
+      <img src="{{ '/assets/media/studio.png' | relative_url }}" alt="TKTK" />
     </div>
   </div>
 </header>
