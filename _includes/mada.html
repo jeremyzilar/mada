@@ -1,26 +1,35 @@
-<section class="mada">
-  <div class="max-w-full px-0">
-    <div
-      class="grid grid-cols-4 tablet:grid-cols-12 gap-4 desktop:gap-6 gap-y-4"
+<header id="header" class="bg-[#fa8368]">
+  <div class="flex flex-col items-center justify-between h-full">
+    <h1
+      class="z-10 py-10 pb-2 pt-20 tablet:p-10 w-full font-black text-lg tablet:text-2xl text-center tablet:text-left"
     >
-      <div class="col-span-4 tablet:col-span-12">
-        <div class="flex items-center justify-center h-screen">
-          <h2
-            class="mada text-[35vw] mobile-lg:text-[24vw] tablet:text-[21vw] inline-block -rotate-90 text-center font-bold tablet:rotate-0"
-          >
-            <span>MADA</span>
-          </h2>
-        </div>
-      </div>
+      <a
+        class=""
+        href="{{ site.baseurl }}/"
+        accesskey="1"
+        title="MADA Home"
+        aria-label="{{ site.title }}"
+      >
+        {{ site.title }}
+      </a>
+    </h1>
+    <div
+      id="mada"
+      class="h-full w-full flex items-center min-h-[80vh] tablet:min-h-[80vh] desktop:min-h-[90vh]"
+    >
+      <h2
+        class="w-full h-full text-[#bbd2fe] text-[148px] tablet:text-[20cqw] text-center font-bold flex items-center justify-center -rotate-90 tablet:rotate-0"
+      >
+        <span>MADA</span>
+      </h2>
     </div>
 
     <div
       id="santafe"
-      class="pb-10 flex flex-col items-center bottom-0 space-y-6"
+      class="pt-16 pb-8 flex flex-col items-center bottom-0 space-y-6"
     >
       <svg
-        width="74"
-        height="73"
+        class="w-[54px] h-[54px] tablet:w-[74px] tablet:h-[74px]"
         viewBox="0 0 74 73"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
@@ -155,7 +164,9 @@
           stroke-linecap="round"
         />
       </svg>
-      <p class="font-mono text-lg">Santa Fe, New Mexico</p>
+      <p class="font-mono text-center text-md tablet:text-lg">
+        Santa Fe, New Mexico
+      </p>
     </div>
   </div>
-</section>
+</header>
