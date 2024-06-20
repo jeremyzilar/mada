@@ -109,7 +109,6 @@ header {
   .card::before {
     content: "+";
     float: left;
-    font-family: Libre Franklin;
     font-size: 24px;
     font-weight: 400;
     line-height: 32px;
@@ -121,40 +120,6 @@ header {
       width: 90%;
       display: block;
     }
-  }
-}
-
-#donate {
-  p span {
-    display: block;
-    color: #fa8368;
-  }
-}
-
-#join {
-  p {
-    // font-size: 24px;
-    // font-weight: 400;
-    // line-height: 37.68px;
-    // letter-spacing: 0.02em;
-  }
-}
-
-.vision {
-  padding: 0;
-  .copy {
-    // p {
-    //   font-size: 24px;
-    //   font-weight: 400;
-    //   line-height: 37.68px;
-    //   letter-spacing: 0.02em;
-    // }
-    // p.font-mono {
-    //   font-size: 18px;
-    //   font-weight: 400;
-    //   line-height: 30.78px;
-    //   letter-spacing: 0.06em;
-    // }
   }
 }
 
@@ -192,12 +157,6 @@ header {
 }
 
 #goals {
-  .text-4xl {
-    span {
-      color: #fa8368;
-      display: block;
-    }
-  }
   .goal {
     border-top: 1px #000 solid;
     .number {
