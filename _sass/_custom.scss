@@ -94,9 +94,6 @@ header {
         border-bottom: 1px #000 solid;
       }
     }
-    div {
-      // padding: 0 115px;
-    }
 
     p {
       width: 90%;
@@ -112,7 +109,6 @@ header {
   .card::before {
     content: "+";
     float: left;
-    //styleName: Body Regular;
     font-family: Libre Franklin;
     font-size: 24px;
     font-weight: 400;
