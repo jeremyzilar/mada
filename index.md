@@ -3,12 +3,9 @@
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
-kicker: "TKTK"
 title: "MADA"
-deck: ""
-description: ""
-image: ""
-featured_image: ""
+description: "An experimental model for self-governance, co-programming, and resource-sharing between creative and cultural communities in Santa Fe’s Midtown."
+image: /assets/media/opengraph.png
 twitter:
   username: sfai
   card: summary_large_image
