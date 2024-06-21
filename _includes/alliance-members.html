@@ -10,144 +10,24 @@
             Current Alliance Members
           </h3>
           <div class="accordion">
-            <div class="card py-8 tablet-lg:py-9 active">
+            {% for item in site.data.alliance-members %}
+            <div
+              class="card py-8 border-t-[1px] border-black cursor-pointer tablet-lg:py-9 group"
+            >
               <div class="pl-16 tablet-lg:px-28 space-y-6 tablet-lg:space-y-8">
-                <h4 class="text-lg tablet-lg:text-2xl">
-                  <span>CENTER Santa Fe</span>
+                <h4
+                  class="text-lg tablet-lg:text-2xl group-hover:underline group-hover:underline-offset-4"
+                >
+                  <span>{{ item.title }}</span>
                 </h4>
-                <p class="text-md tablet-lg:text-lg font-mono">
-                  CENTER Santa Fe is a non-proﬁt that supports socially and
-                  environmentally engaged lens- based projects through
-                  education, public platforms, and partnerships.
+                <p
+                  class="text-md tablet-lg:text-lg font-mono {% unless forloop.first %}hidden{% endunless %}"
+                >
+                  {{ item.desc }}
                 </p>
               </div>
             </div>
-            <div class="card py-8 tablet:py-9">
-              <div class="pl-16 tablet:px-28">
-                <h4 class="text-xl"><span>Creative Startups</span></h4>
-                <p class="text-md tablet-lg:text-lg font-mono">
-                  Creative Startups provides support and resources to help
-                  creative entrepreneurs and startups thrive, which it achieves
-                  through specialized training, mentorship, and access to a
-                  network of experts and investors.
-                </p>
-              </div>
-            </div>
-            <div class="card py-8 tablet:py-9">
-              <div class="pl-16 tablet:px-28">
-                <h4 class="text-xl"><span>Currents New Media</span></h4>
-                <p class="text-md tablet-lg:text-lg font-mono">
-                  Currents New Media fosters new media arts and presents artists
-                  creating innovative work. Their annual festival, educational
-                  programs, and exhibitions provide year- round public access to
-                  immersive and expansive art experiences.
-                </p>
-              </div>
-            </div>
-            <div class="card py-8 tablet:py-9">
-              <div class="pl-16 tablet:px-28">
-                <h4 class="text-xl"><span>Girls, Inc</span></h4>
-                <p class="text-md tablet-lg:text-lg font-mono">
-                  Girls, Inc. offers long-lasting mentoring relationships, a
-                  pro-girl environment, and research-based programming to equip
-                  youth to navigate gender, economic, and social barriers and
-                  grow up healthy, educated, and independent.
-                </p>
-              </div>
-            </div>
-            <div class="card py-8 tablet:py-9">
-              <div class="pl-16 tablet:px-28">
-                <h4 class="text-xl"><span>Little Globe</span></h4>
-                <p class="text-md tablet-lg:text-lg font-mono">
-                  Little Globe partners with local, national, and international
-                  communities to create rigorous artistic works that create
-                  meaningful relationships, empower individuals and communities,
-                  and reﬂect the power of our social imagination. “Connect,
-                  Heal, and Thrive through the art of Storytelling.”
-                </p>
-              </div>
-            </div>
-            <div class="card py-8 tablet:py-9">
-              <div class="pl-16 tablet:px-28">
-                <h4 class="text-xl"><span>MAKE Santa Fe</span></h4>
-                <p class="text-md tablet-lg:text-lg font-mono">
-                  MAKE Santa Fe is a non-proﬁt community workspace dedicated to
-                  catalyzing the creative class, where people can access tools,
-                  resources, and workshops to make, repair, invent, or create
-                  anything they can dream of.
-                </p>
-              </div>
-            </div>
-            <div class="card py-8 tablet:py-9">
-              <div class="pl-16 tablet:px-28">
-                <h4 class="text-xl"><span>MASS Design Group</span></h4>
-                <p class="text-md tablet-lg:text-lg font-mono">
-                  MASS Design Group’s mission is to research, build, and
-                  advocate for architecture that promotes justice and human
-                  dignity.
-                </p>
-              </div>
-            </div>
-            <div class="card py-8 tablet:py-9">
-              <div class="pl-16 tablet:px-28">
-                <h4 class="text-xl"><span>Santa Fe Art Institute</span></h4>
-                <p class="text-md tablet-lg:text-lg font-mono">
-                  Santa Fe Art Institute forges critical inquiry and cultural
-                  exchange among artists, creative practitioners, and the
-                  broader community. SFAI supports and ampliﬁes dynamic artistic
-                  practices that engage complex social issues, inspire
-                  individual transformation, and inform collective action.
-                </p>
-              </div>
-            </div>
-            <div class="card py-8 tablet:py-9">
-              <div class="pl-16 tablet:px-28">
-                <h4 class="text-xl"><span>Santa Fe Indigenous Center</span></h4>
-                <p class="text-md tablet-lg:text-lg font-mono">
-                  Santa Fe Indigenous Center is designed by and for Indigenous
-                  Peoples with the mission of supporting, promoting, and
-                  enriching their vital, diverse community by identifying and
-                  serving the needs and interests of their people.
-                </p>
-              </div>
-            </div>
-            <div class="card py-8 tablet:py-9">
-              <div class="pl-16 tablet:px-28">
-                <h4 class="text-xl">
-                  <span>The University of New Mexico</span>
-                </h4>
-                <p class="text-md tablet-lg:text-lg font-mono">
-                  The University of New Mexico and its partnering divisions
-                  (College of Fine Arts, Continuing Education, School of
-                  Architecture + Planning, and STEAM NM) serve as the State’s
-                  ﬂagship institution of higher learning through demonstrating
-                  and growing excellence in teaching, research, and service.
-                </p>
-              </div>
-            </div>
-            <div class="card py-8 tablet:py-9">
-              <div class="pl-16 tablet:px-28">
-                <h4 class="text-xl"><span>Vital Spaces</span></h4>
-                <p class="text-md tablet-lg:text-lg font-mono">
-                  Vital Spaces sustains and enhances Santa Fe’s cultural
-                  vibrancy by creating affordable spaces for artists working in
-                  all media. They focus on fostering a collaborative creative
-                  community and supporting people, ideas, and art forms that are
-                  underrepresented in Santa Fe’s commercial art scene.
-                </p>
-              </div>
-            </div>
-            <div class="card py-8 tablet:py-9">
-              <div class="pl-16 tablet:px-28">
-                <h4 class="text-xl"><span>YouthWorks</span></h4>
-                <p class="text-md tablet-lg:text-lg font-mono">
-                  YouthWorks! is a cutting-edge, innovative organization
-                  offering a continuum of services designed to reconnect “at
-                  risk” and disadvantaged youth ages 14-25 with their community
-                  through education, employment training, and job placement.
-                </p>
-              </div>
-            </div>
+            {% endfor %}
           </div>
         </div>
       </div>

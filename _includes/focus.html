@@ -8,64 +8,24 @@
         <div class="space-y-14">
           <h3 class="text-lg font-mono pb-6">Our Focus</h3>
           <div class="accordion">
-            <div class="card py-9 active">
-              <div>
-                <h4 class="text-xl pb-2">
-                  <span>Community Connections</span>
+            {% for item in site.data.focus %}
+            <div
+              class="card py-8 border-t-[1px] border-black cursor-pointer tablet-lg:py-9 group"
+            >
+              <div class="pl-16 tablet-lg:px-28 space-y-6 tablet-lg:space-y-8">
+                <h4
+                  class="text-lg tablet-lg:text-2xl group-hover:underline group-hover:underline-offset-4"
+                >
+                  <span>{{ item.title }}</span>
                 </h4>
-                <p class="text-md font-mono">
-                  To create the first creative hub of its kind for Santa Fe,
-                  bridging the north and south sides.
+                <p
+                  class="text-md tablet-lg:text-lg font-mono {% unless forloop.first %}hidden{% endunless %}"
+                >
+                  {{ item.desc }}
                 </p>
               </div>
             </div>
-            <div class="card py-9">
-              <div>
-                <h4 class="text-xl">
-                  <span>Affordable Space & Programs</span>
-                </h4>
-                <p class="text-md font-mono">
-                  To offer affordable arts and culture programs to 30,000+
-                  residents and visitors annually, including studios, galleries,
-                  maker spaces, performance sites, event venues, and communal
-                  areas that welcome everyone.
-                </p>
-              </div>
-            </div>
-            <div class="card py-9">
-              <div>
-                <h4 class="text-xl">
-                  <span>Art as Social Change</span>
-                </h4>
-                <p class="text-md font-mono">
-                  To invest in art, design, and advocacy as a force for justice
-                  and equity.
-                </p>
-              </div>
-            </div>
-            <div class="card py-9">
-              <div>
-                <h4 class="text-xl">
-                  <span>Workforce Development</span>
-                </h4>
-                <p class="text-md font-mono">
-                  To combine creative practice with education, impactful social
-                  services, apprenticeship and career pathways, and connect New
-                  Mexico with creative practitioners from around the world.
-                </p>
-              </div>
-            </div>
-            <div class="card py-9">
-              <div>
-                <h4 class="text-xl">
-                  <span>Greater Midtown Partner</span>
-                </h4>
-                <p class="text-md font-mono">
-                  To complement and harmonize with the City’s master plan for
-                  the 60 acres of campus beyond.
-                </p>
-              </div>
-            </div>
+            {% endfor %}
           </div>
         </div>
       </div>
