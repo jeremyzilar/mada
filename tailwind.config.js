@@ -81,7 +81,37 @@ module.exports = {
         "desktop-lg": "1256px",
         widescreen: "1400px",
       },
+      scale: {
+        80: "0.8",
+        60: "0.6",
+        40: "0.4",
+        30: "0.3",
+      },
     },
   },
-  plugins: [],
+  variants: {
+    scale: ["responsive"],
+  },
+  plugins: [
+    function ({ addUtilities }) {
+      const newUtilities = {
+        ".scale-80": {
+          transform: "scale(0.8)",
+        },
+        ".scale-60": {
+          transform: "scale(0.6)",
+        },
+        ".scale-40": {
+          transform: "scale(0.4)",
+        },
+        ".scale-30": {
+          transform: "scale(0.3)",
+        },
+        ".transform-origin-top-left": {
+          "transform-origin": "top left",
+        },
+      };
+      addUtilities(newUtilities, ["responsive", "hover"]);
+    },
+  ],
 };

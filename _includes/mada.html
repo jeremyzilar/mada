@@ -1,4 +1,7 @@
-<header id="header" class="relative bg-[#fa8368]">
+<header
+  id="header"
+  class="relative bg-[#fa8368] transform transform-origin-top-left scale-100"
+>
   <div class="relative z-20 flex flex-col items-center justify-between h-full">
     <h1
       class="z-10 py-10 pb-2 pt-20 tablet:p-10 w-full font-black text-body-bold-mobile tablet:text-body-bold text-center tablet:text-left"
@@ -23,167 +26,21 @@
         <span>MADA</span>
       </h2>
     </div>
-
-    <div
-      id="santafe"
-      class="pt-16 pb-8 flex flex-col items-center bottom-0 space-y-6"
-    >
-      <svg
-        class="w-[54px] h-[54px] tablet:w-[74px] tablet:h-[74px]"
-        viewBox="0 0 74 73"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <circle cx="37.1265" cy="36.2176" r="11.4219" stroke="black" />
-        <line
-          x1="35.1969"
-          y1="0.5"
-          x2="35.1969"
-          y2="24.4738"
-          stroke="black"
-          stroke-linecap="round"
-        />
-        <line
-          x1="39.717"
-          y1="0.5"
-          x2="39.717"
-          y2="24.4738"
-          stroke="black"
-          stroke-linecap="round"
-        />
-        <line
-          x1="44.5762"
-          y1="5.92432"
-          x2="44.5762"
-          y2="26.9601"
-          stroke="black"
-          stroke-linecap="round"
-        />
-        <line
-          x1="30.2247"
-          y1="5.92432"
-          x2="30.2247"
-          y2="26.9601"
-          stroke="black"
-          stroke-linecap="round"
-        />
-        <line
-          x1="39.1691"
-          y1="71.9084"
-          x2="39.1691"
-          y2="47.9346"
-          stroke="black"
-          stroke-linecap="round"
-        />
-        <line
-          x1="34.6488"
-          y1="71.9084"
-          x2="34.6488"
-          y2="47.9346"
-          stroke="black"
-          stroke-linecap="round"
-        />
-        <line
-          x1="29.7898"
-          y1="66.4841"
-          x2="29.7898"
-          y2="45.4484"
-          stroke="black"
-          stroke-linecap="round"
-        />
-        <line
-          x1="44.1412"
-          y1="66.4841"
-          x2="44.1412"
-          y2="45.4484"
-          stroke="black"
-          stroke-linecap="round"
-        />
-        <line
-          x1="72.7042"
-          y1="34.4724"
-          x2="48.7304"
-          y2="34.4724"
-          stroke="black"
-          stroke-linecap="round"
-        />
-        <line
-          x1="72.7042"
-          y1="38.9929"
-          x2="48.7304"
-          y2="38.9929"
-          stroke="black"
-          stroke-linecap="round"
-        />
-        <line
-          x1="67.28"
-          y1="43.8518"
-          x2="46.2443"
-          y2="43.8518"
-          stroke="black"
-          stroke-linecap="round"
-        />
-        <line
-          x1="67.28"
-          y1="29.5"
-          x2="46.2443"
-          y2="29.5"
-          stroke="black"
-          stroke-linecap="round"
-        />
-        <line
-          x1="1.29578"
-          y1="38.4172"
-          x2="25.2696"
-          y2="38.4172"
-          stroke="black"
-          stroke-linecap="round"
-        />
-        <line
-          x1="1.29578"
-          y1="33.897"
-          x2="25.2696"
-          y2="33.897"
-          stroke="black"
-          stroke-linecap="round"
-        />
-        <line
-          x1="6.71997"
-          y1="29.0376"
-          x2="27.7557"
-          y2="29.0376"
-          stroke="black"
-          stroke-linecap="round"
-        />
-        <line
-          x1="6.71997"
-          y1="43.3892"
-          x2="27.7557"
-          y2="43.3892"
-          stroke="black"
-          stroke-linecap="round"
-        />
-      </svg>
-      <p
-        class="font-mono text-center text-caption-mobile tablet:text-caption uppercase"
-      >
-        Santa Fe, New Mexico
-      </p>
-    </div>
+    {% include santa-fe.html %}
   </div>
-  <div class="floating-images h-full">
+  <div class="floating-images h-full absolute top-0 left-0 right-0 bottom-0">
     <div
-      class="building w-[40%] max-w-[555px] min-w-[314px] left-0 top-36 tablet:left-auto tablet:right-9 tablet:top-9 absolute"
+      class="building w-[40%] max-w-[555px] min-w-[314px] left-0 top-36 tablet:left-auto tablet:right-9 tablet:top-9 absolute blend-bg"
     >
       <img src="{{ '/assets/media/building.png' | relative_url }}" alt="TKTK" />
     </div>
     <div
-      class="welder w-[32%] max-w-[314px] min-w-[116px] top-[50%] tablet:top-[28%] right-0 tablet:right-auto tablet:left-9 absolute"
+      class="welder w-[32%] max-w-[314px] min-w-[116px] top-[50%] tablet:top-[28%] right-0 tablet:right-auto tablet:left-9 absolute blend-bg"
     >
       <img src="{{ '/assets/media/welder.png' | relative_url }}" alt="TKTK" />
     </div>
     <div
-      class="studio w-[32%] max-w-[277px] min-w-[184px] bottom-[25%] tablet:bottom-[10%] left-0 tablet:left-auto tablet:right-9 tablet:bottom-9 absolute"
+      class="studio w-[32%] max-w-[277px] min-w-[184px] bottom-[25%] tablet:bottom-[10%] left-0 tablet:left-auto tablet:right-9 tablet:bottom-9 absolute blend-bg"
     >
       <img src="{{ '/assets/media/studio.png' | relative_url }}" alt="TKTK" />
     </div>
