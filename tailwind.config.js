@@ -9,15 +9,26 @@ module.exports = {
   ],
   theme: {
     fontSize: {
-      sm: ["0.7rem", "23.94px"],
-      base: ["0.875rem", "23.94px"],
-      md: ["0.875rem", "23.94px"],
-      lg: ["1.125rem", "30.78px"],
-      xl: ["1.25rem", "25.28px"],
-      "2xl": ["1.5rem", "29.09px"], // 24px
-      "3xl": "2rem",
-      "4xl": ["2.5rem", "48.48px"],
-      "5xl": "3.052rem",
+      heading: ["2.5rem", { lineHeight: "48.48px" }],
+      body: ["1.5rem", { lineHeight: "37.68px", letterSpacing: "0.02em" }],
+      "body-bold": [
+        "1.5rem",
+        { lineHeight: "37.92px", letterSpacing: "0.02em" },
+      ],
+      caption: ["1.125rem", { lineHeight: "30.78px", letterSpacing: "0.06em" }], // 18px / 171
+      "heading-mobile": ["1.5rem", { lineHeight: "29.09px" }],
+      "body-mobile": [
+        "1rem",
+        { lineHeight: "25.28px", letterSpacing: "0.02em" },
+      ],
+      "body-bold-mobile": [
+        "1rem",
+        { lineHeight: "25.28px", letterSpacing: "0.02em" },
+      ],
+      "caption-mobile": [
+        "0.875rem",
+        { lineHeight: "23.94px", letterSpacing: "0.06em" },
+      ],
     },
     fontFamily: {
       sans: [
@@ -43,6 +54,20 @@ module.exports = {
         "ui-sans-serif",
         "system-ui",
       ],
+    },
+    letterSpacing: {
+      tighter: "-0.05em",
+      tight: "-0.025em",
+      normal: "0em",
+      wide: "0.025em",
+      wider: "0.05em",
+      widest: "0.1em",
+      "body-regular": "0.157em",
+      "body-bold": "0.158em",
+      caption: "0.171em",
+      "body-regular-mobile": "0.158em",
+      "body-bold-mobile": "0.158em",
+      "caption-mobile": "0.171em",
     },
     extend: {
       screens: {

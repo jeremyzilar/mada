@@ -6,11 +6,15 @@
     <div class="grid grid-cols-4 tablet:grid-cols-12 gap-0">
       <div class="col-span-4 tablet:col-span-12">
         <div class="space-y-14">
-          <h3 class="font-mono text-lg">Our Impact Goals</h3>
-          <p class="text-4xl font-black">
+          <h3
+            class="font-mono text-caption-mobile tablet:text-caption uppercase"
+          >
+            Our Impact Goals
+          </h3>
+          <p class="text-heading-mobile tablet:text-heading font-black">
             When complete, MADA will serve as a new arts center that expands the
             story we can tell about art, culture, and creativity in our city.
-            <span class="text-[#fa8368] block"
+            <span class="text-[#fa8368]"
               >Reach out if you want to get involved or have ideas on ways to
               measure positive impact.</span
             >
@@ -19,79 +23,39 @@
       </div>
     </div>
     <div class="pt-28">
-      <div class="grid grid-cols-4 tablet:grid-cols-12 gap-y-28 gap-x-10">
-        <div class="col-span-4 tablet:col-span-6">
-          <div class="goal flex pt-6">
+      <div
+        class="grid grid-cols-4 tablet:grid-cols-12 gap-y-10 desktop:gap-y-28 gap-x-10"
+      >
+        {% for item in site.data.goals %}
+        <div class="col-span-4 tablet:col-span-12 desktop:col-span-6">
+          <div class="goal flex pt-6 gap-4 border-t-[1px] border-black">
             <div class="flex flex-col justify-between">
               <div>
-                <div class="number">01</div>
-                <h4 class="text-xl font-bold pb-6">Cultural Goals</h4>
+                <div
+                  class="text-body-bold-mobile tablet:text-body-bold font-black text-[#fa8368]"
+                >
+                  {{ item.num }}
+                </div>
+                <h4
+                  class="p-0 text-body-bold-mobile tablet:text-body-bold font-black"
+                >
+                  {{ item.title }}
+                </h4>
               </div>
-              <p class="font-mono">
-                To bring together Santa Fe’s north and south sides through a
-                creative nexus
+              <p
+                class="font-mono text-caption-mobile tablet:text-caption desktop:text-caption-mobile desktop-lg:text-caption"
+              >
+                {{ item.desc }}
               </p>
             </div>
             <img
-              src="{{ '/assets/media/temp.png' | relative_url }}"
-              alt="TKTK"
+              class="w-[104px] tablet:w-[193px]"
+              src="{{ item.img | relative_url }}"
+              alt="{{ item.title }}"
             />
           </div>
         </div>
-        <div class="col-span-4 tablet:col-span-6">
-          <div class="goal flex pt-6">
-            <div class="flex flex-col justify-between">
-              <div>
-                <div class="number">02</div>
-                <h4 class="text-xl font-bold">Economic Goal</h4>
-              </div>
-              <p class="font-mono">
-                To bridge creative practice with education and career pathways
-                for people of all ages
-              </p>
-            </div>
-            <img
-              src="{{ '/assets/media/temp.png' | relative_url }}"
-              alt="TKTK"
-            />
-          </div>
-        </div>
-        <div class="col-span-4 tablet:col-span-6">
-          <div class="goal flex pt-6">
-            <div class="flex flex-col justify-between">
-              <div>
-                <div class="number">03</div>
-                <h4 class="text-xl font-bold pb-6">Community Goal</h4>
-              </div>
-              <p class="font-mono">
-                To provide accessible, all-ages programming that celebrates our
-                multicultural community
-              </p>
-            </div>
-            <img
-              src="{{ '/assets/media/temp.png' | relative_url }}"
-              alt="TKTK"
-            />
-          </div>
-        </div>
-        <div class="col-span-4 tablet:col-span-6">
-          <div class="goal flex pt-6">
-            <div class="flex flex-col justify-between">
-              <div>
-                <div class="number">04</div>
-                <h4 class="text-xl font-bold pb-6">City Goal</h4>
-              </div>
-              <p class="font-mono">
-                To ensure Santa Fe’s relevance as a cultural and creative mecca
-                for generations to come
-              </p>
-            </div>
-            <img
-              src="{{ '/assets/media/temp.png' | relative_url }}"
-              alt="TKTK"
-            />
-          </div>
-        </div>
+        {% endfor %}
       </div>
     </div>
   </div>

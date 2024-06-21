@@ -17,35 +17,6 @@ a {
   }
 }
 
-.btn {
-  padding: 15px 5.5rem;
-  font-size: 18px;
-  font-weight: 300;
-  line-height: 30.78px;
-  letter-spacing: 0.06em;
-  text-align: center;
-  border-radius: 8px;
-  text-transform: uppercase;
-  text-decoration: none;
-  &:hover {
-    text-decoration: underline;
-  }
-}
-.btn-ghost {
-  padding: 0;
-  text-align: left;
-  font-weight: 700;
-  text-decoration: underline;
-}
-.btn-dark {
-  background: #000000;
-  color: #ffffff;
-}
-.btn-pink {
-  background: #fa8368;
-  color: #000000;
-}
-
 header {
   .floating-images {
     position: absolute;
@@ -53,9 +24,6 @@ header {
     left: 0;
     right: 0;
     bottom: 0;
-    // display: flex;
-    // justify-content: space-around;
-    // background-color: #fa8368; /* Adjust this to match your background color */
     div {
       &:before {
         content: "";
@@ -79,86 +47,5 @@ header {
   }
 }
 
-#santafe {
-  p {
-    letter-spacing: 0.06em;
-  }
-}
-
 .accordion {
-  .card {
-    p {
-      letter-spacing: 0.06em;
-    }
-    h4 {
-      letter-spacing: 0.02em;
-    }
-  }
-  .card::before {
-    content: "+";
-    float: left;
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 32px;
-    text-align: right;
-  }
-}
-
-#slides {
-  h4 {
-    font-size: 24px;
-    font-weight: 900;
-    line-height: 37.92px;
-    letter-spacing: 0.02em;
-  }
-  p,
-  cite {
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 30.78px;
-    letter-spacing: 0.06em;
-  }
-  cite {
-    display: block;
-    font-style: normal;
-  }
-}
-
-#goals {
-  .goal {
-    border-top: 1px #000 solid;
-    .number {
-      font-size: 24px;
-      font-weight: 900;
-      line-height: 37.92px;
-      letter-spacing: 0.02em;
-      color: #fa8368;
-    }
-    h4 {
-      padding: 0 0 0.75rem 0;
-      font-size: 24px;
-      font-weight: 900;
-      line-height: 37.92px;
-      letter-spacing: 0.02em;
-    }
-    p {
-      font-size: 18px;
-      font-weight: 400;
-      line-height: 30.78px;
-      letter-spacing: 0.06em;
-    }
-    img {
-      width: 193px;
-      height: 221px;
-    }
-  }
-}
-
-footer {
-  .text-blue {
-    color: #bbd2fe;
-  }
-
-  .madalliance {
-  }
 }
