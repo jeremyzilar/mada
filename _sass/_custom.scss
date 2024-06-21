@@ -124,35 +124,28 @@ header {
 }
 
 #slides {
-  display: none;
-  padding: 0;
-  .slide-text {
-    padding: 8rem 10rem;
-    .nav {
-      .arrow {
-        cursor: pointer;
-      }
-    }
-    h4 {
-      font-size: 24px;
-      font-weight: 900;
-      line-height: 37.92px;
-      letter-spacing: 0.02em;
-    }
-    p,
-    cite {
-      font-size: 18px;
-      font-weight: 400;
-      line-height: 30.78px;
-      letter-spacing: 0.06em;
-    }
-    cite {
-      display: block;
-      font-style: normal;
+  // padding: 8rem 10rem;
+  .nav {
+    .arrow {
+      cursor: pointer;
     }
   }
-  .slide {
-    padding: 8rem 10rem;
+  h4 {
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 37.92px;
+    letter-spacing: 0.02em;
+  }
+  p,
+  cite {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30.78px;
+    letter-spacing: 0.06em;
+  }
+  cite {
+    display: block;
+    font-style: normal;
   }
 }
 
@@ -186,31 +179,11 @@ header {
   }
 }
 
-#focus {
-}
-
 footer {
-  h3 {
-    font-size: 24px;
-    font-weight: 900;
-    line-height: 37.92px;
-    letter-spacing: 0.02em;
-  }
-  p span.text-blue {
+  .text-blue {
     color: #bbd2fe;
-  }
-  p span.text-pink {
-    color: #fa8368;
   }
 
   .madalliance {
-    color: #fa8368;
-    font-size: 12vw;
-    font-weight: 600;
-    line-height: 219.37px;
-    text-align: center;
-    span {
-      color: #bbd2fe;
-    }
   }
 }
