@@ -19,7 +19,7 @@ tagline: "An experimental model for self-governance, co-programming, and resourc
 description: "An experimental model for self-governance, co-programming, and resource-sharing between creative and cultural communities in Santa Fe’s Midtown."
 image: /assets/media/opengraph.png
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://mada.sfai.org/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://mada.sfai.org" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: jeremyzilar
 
 # include: ["_sections"]
