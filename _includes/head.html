@@ -37,32 +37,8 @@
     rel="stylesheet"
   />
 
-  <!-- Font Awesome -->
-  <link
-    rel="stylesheet"
-    href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
-    integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
-    crossorigin="anonymous"
-  />
-
   <!-- icons -->
   <link rel="shortcut icon" href="/assets/img/favicons/apple-touch-icon.png" />
 
   <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
-
-  <!-- GitHub -->
-  <script type="text/javascript">
-    source_of_truth = "{{ site.source_of_truth }}";
-    github_org = "{{ site.github_org }}";
-    github_repo = "{{ site.github_repo }}";
-    filepath = "{{ page.path }}";
-    filepathURL =
-      "https://github.com/{{ site.github_org }}/{{ site.github_repo }}/edit/master/{{ page.path }}";
-    commit_api =
-      "https://api.github.com/repos/{{ site.github_org }}/{{ site.github_repo }}/commits?path=/{{ page.path }}";
-    issues_api =
-      "https://api.github.com/repos/{{ site.github_org }}/{{ site.github_repo }}/issues?labels=bug&per_page=100";
-  </script>
-
-  {% include analytics.html %}
 </head>
