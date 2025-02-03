@@ -1,13 +1,29 @@
-# MADA
+# Midtown Arts and Design Alliance (MADA)
 
-Santa Fe, New Mexico
+MADA is a bold model for creative and cultural communities to share governance, programming, and resources in Santa Fe’s Midtown.
+
+---
 
 ## Development
 
-To set up:
+https://github.com/jeremyzilar/mada
+
+**To get set up locally:**
 
 ```
-$ npm run dependencies
-$ npm run init
-$ npm start
+$ yarn install
+$ yarn dev
+$ Open http://localhost:4000/
 ```
+
+Any changes you make will be reflected on http://localhost:4000/
+
+**To build the CSS:**
+
+```
+$ yarn build:css
+```
+
+**To deploy:**
+
+Push your changes to the `main` branch and they will be deployed to GitHub pages automatically. It usually takes 1-2 minutes for the changes to be reflected on https://mada.sfai.org
