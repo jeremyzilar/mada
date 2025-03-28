@@ -36,3 +36,19 @@ header {
     pointer-events: none;
   }
 }
+
+.content {
+  @apply text-body-mobile tablet:text-body;
+  h1 {
+    @apply hidden;
+  }
+  h2 {
+    @apply text-xl font-black;
+  }
+  h3 {
+    @apply text-lg font-black;
+  }
+  h4 {
+    @apply text-md font-black;
+  }
+}
