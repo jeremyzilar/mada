@@ -1,0 +1,15 @@
+# Nav
+# List links that should appear in the Footer
+
+- title: "About"
+  slug: "about"
+- title: "Partners"
+  slug: "partners"
+- title: "The Midtown Site"
+  slug: "midtown"
+- title: "News"
+  slug: "news"
+- title: "Contact"
+  slug: "contact"
+- title: "Support"
+  slug: "support"
