@@ -1,4 +1,38 @@
----
----
+/* _sass/_custom.scss */
 
-@import "custom";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* _sass/_custom.scss */
+
+body {
+  color: #000;
+  background-color: #000;
+}
+
+.paper {
+  background-color: #000;
+  background-attachment: fixed;
+}
+
+a {
+  text-decoration: underline;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+header {
+  .blend-bg:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fa8368;
+    mix-blend-mode: multiply;
+    pointer-events: none;
+  }
+}
