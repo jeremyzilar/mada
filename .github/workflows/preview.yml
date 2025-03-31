@@ -13,11 +13,29 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: yarn install && yarn build
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3"
+          bundler-cache: true
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "18"
+
+      - name: Install dependencies and build
         if: github.event.action != 'closed'
+        run: |
+          yarn install
+          bundle install
+          yarn build:css
+          bundle exec jekyll build
+
       - uses: rossjrw/pr-preview-action@v1
         with:
-          source-dir: .
+          source-dir: _site
           preview-branch: gh-pages
           umbrella-dir: pr-preview
           action: auto
