@@ -39,7 +39,8 @@ jobs:
         run: |
           yarn build:css
           mkdir -p ./_site/assets/css/
-          cp ./assets/css/styles.css ./_site/assets/css/
+          cp ./assets/css/main.css ./_site/assets/css/
+          cp ./assets/css/tailwind.css ./_site/assets/css/
 
       - name: Build Jekyll site
         if: github.event.action != 'closed'
