@@ -1,9 +1,10 @@
 <nav class="">
-  <ul class="py-3 flex space-x-6 uppercase">
-    <li><a class="no-underline underline-offset-4" href="/">Home</a></li>
+  <ul class="flex space-x-6 uppercase">
     {% for item in site.data.nav %}
     <li>
-      <a class="no-underline underline-offset-4" href="/{{ item.slug }}"
+      <a
+        class="no-underline underline-offset-4 whitespace-nowrap"
+        href="/{{ item.slug }}"
         >{{ item.title }}</a
       >
     </li>
