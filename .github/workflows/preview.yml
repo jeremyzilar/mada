@@ -67,6 +67,16 @@ jobs:
         run: |
           bundle exec jekyll build --config _config.yml
 
+      - name: Debug _site contents
+        if: github.event.action != 'closed'
+        run: |
+          echo "Contents of _site directory:"
+          ls -R _site
+          echo "Contents of _site/assets/css:"
+          ls -la _site/assets/css/
+          echo "Checking if index.html exists:"
+          cat _site/index.html || echo "index.html not found"
+
       - name: Deploy preview
         uses: rossjrw/pr-preview-action@v1
         with:
