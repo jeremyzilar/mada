@@ -12,12 +12,25 @@ on:
       - reopened
       - synchronize
       - closed
+    paths:
+      - "**/*.html"
+      - "**/*.md"
+      - "**/*.scss"
+      - "**/*.css"
+      - "_includes/**"
+      - "_layouts/**"
+      - "_pages/**"
+      - "assets/**"
+      - "package.json"
+      - "tailwind.config.js"
+      - "postcss.config.js"
 
 concurrency: preview-${{ github.ref }}
 
 jobs:
   deploy-preview:
     runs-on: ubuntu-latest
+    if: github.event.action != 'closed' || !github.event.pull_request.merged
     steps:
       - name: Checkout
         uses: actions/checkout@v4
