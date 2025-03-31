@@ -60,22 +60,28 @@ jobs:
           cp ./assets/css/main.css ./_site/assets/css/
           cp ./assets/css/tailwind.css ./_site/assets/css/
 
+      - name: Create preview config
+        if: github.event.action != 'closed'
+        run: |
+          echo "baseurl: /pr-preview/pr-${{ github.event.pull_request.number }}" > _config_preview.yml
+          echo "url: https://mada.sfai.org" >> _config_preview.yml
+
       - name: Build Jekyll site
         if: github.event.action != 'closed'
         env:
           JEKYLL_ENV: production
         run: |
-          bundle exec jekyll build --config _config.yml
+          bundle exec jekyll build --config _config.yml,_config_preview.yml --verbose
 
-      - name: Debug _site contents
+      - name: Debug build output
         if: github.event.action != 'closed'
         run: |
-          echo "Contents of _site directory:"
-          ls -R _site
-          echo "Contents of _site/assets/css:"
+          echo "Site contents:"
+          ls -la _site
+          echo "\nCSS files:"
           ls -la _site/assets/css/
-          echo "Checking if index.html exists:"
-          cat _site/index.html || echo "index.html not found"
+          echo "\nIndex file:"
+          cat _site/index.html || echo "No index.html found"
 
       - name: Deploy preview
         uses: rossjrw/pr-preview-action@v1
