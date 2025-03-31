@@ -1,0 +1,54 @@
+/* _sass/_custom.scss */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* _sass/_custom.scss */
+
+body {
+  color: #000;
+  background-color: #000;
+}
+
+.paper {
+  background-color: #000;
+  background-attachment: fixed;
+}
+
+a {
+  text-decoration: underline;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+header {
+  .blend-bg:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fa8368;
+    mix-blend-mode: multiply;
+    pointer-events: none;
+  }
+}
+
+.content {
+  @apply text-body-mobile tablet:text-body;
+  h1 {
+    @apply hidden;
+  }
+  h2 {
+    @apply text-xl font-black;
+  }
+  h3 {
+    @apply text-lg font-black;
+  }
+  h4 {
+    @apply text-md font-black;
+  }
+}
