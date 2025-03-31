@@ -25,12 +25,25 @@ jobs:
         with:
           node-version: "18"
 
-      - name: Install dependencies and build
+      - name: Install dependencies
         if: github.event.action != 'closed'
         run: |
           yarn install
           bundle install
+
+      - name: Build CSS
+        if: github.event.action != 'closed'
+        run: |
           yarn build:css
+          mkdir -p ./_site/assets/css/
+          cp ./assets/css/main.css ./_site/assets/css/
+          cp ./assets/css/tailwind.css ./_site/assets/css/
+
+      - name: Build Jekyll site
+        if: github.event.action != 'closed'
+        env:
+          JEKYLL_ENV: production
+        run: |
           bundle exec jekyll build
 
       - uses: rossjrw/pr-preview-action@v1
