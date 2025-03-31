@@ -18,7 +18,7 @@ email: jeremyzilar@gmail.com
 tagline: "An experimental model for self-governance, co-programming, and resource-sharing between creative and cultural communities in Santa Fe's Midtown."
 description: "An experimental model for self-governance, co-programming, and resource-sharing between creative and cultural communities in Santa Fe's Midtown."
 image: /assets/media/opengraph.png
-baseurl: "" # we'll override this in the workflow
+baseurl: ""
 url: "https://mada.sfai.org"
 github_username: jeremyzilar
 
