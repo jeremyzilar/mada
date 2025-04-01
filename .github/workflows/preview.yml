@@ -75,7 +75,7 @@ jobs:
         id: preview
         with:
           source-dir: _site
-          preview-branch: preview
+          preview-branch: main
           umbrella-dir: pr-preview
           action: auto
           token: ${{ secrets.GITHUB_TOKEN }}
