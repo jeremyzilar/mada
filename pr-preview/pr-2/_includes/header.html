@@ -1,0 +1,21 @@
+<header
+  id="header"
+  class="relative bg-[#fa8368] transform transform-origin-top-left scale-100"
+>
+  <div class="relative z-20 flex h-full p-10 justify-between items-center">
+    <h1
+      class="z-10 w-full font-black text-body-bold-mobile tablet:text-body-bold text-center tablet:text-left"
+    >
+      <a
+        class="no-underline hover:underline underline-offset-4"
+        href="{{ site.baseurl }}/"
+        accesskey="1"
+        title="MADA Home"
+        aria-label="{{ site.title }}"
+      >
+        {{ site.title }}
+      </a>
+    </h1>
+    {% include nav.html %}
+  </div>
+</header>
