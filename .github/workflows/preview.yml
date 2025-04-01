@@ -19,6 +19,7 @@ on:
 jobs:
   deploy-preview:
     runs-on: ubuntu-latest
+    if: github.event.action != 'closed' || !github.event.pull_request.merged
     steps:
       - uses: actions/checkout@v4
         with:
@@ -74,11 +75,12 @@ jobs:
       - uses: rossjrw/pr-preview-action@v1
         id: preview
         with:
-          source-dir: .
+          source-dir: _site
           preview-branch: main
           umbrella-dir: pr-preview
           action: auto
           token: ${{ secrets.GITHUB_TOKEN }}
+          force: true
 
       # Update deployment status based on the preview deployment
       - name: Update deployment status
@@ -103,3 +105,12 @@ jobs:
             URL: https://mada.sfai.org/pr-preview/pr-${{ github.event.pull_request.number }}/
 
             Built from commit: ${{ github.sha }}
+
+      # Add a cleanup step when PR is merged
+      - name: Cleanup preview
+        if: github.event.action == 'closed' && github.event.pull_request.merged == true
+        run: |
+          git checkout preview
+          git rm -rf pr-preview/pr-${{ github.event.pull_request.number }}
+          git commit -m "Remove PR preview for #${{ github.event.pull_request.number }}"
+          git push origin preview
