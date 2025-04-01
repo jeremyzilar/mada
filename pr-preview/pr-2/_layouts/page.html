@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+{% include header.html %}
+
+<main class="py-24 tablet:py-24 bg-[#F9F2EA]">
+  <div class="px-5 tablet:px-24 desktop:px-32 desktop-lg:px-40">
+    <div class="space-y-12 tablet:space-y-16">
+      <h1 class="font-mono text-caption-mobile tablet:text-caption uppercase">
+        {{ page.title }}
+      </h1>
+      {% if page.deck %}
+      <p class="text-heading-mobile tablet:text-heading font-black">
+        {{ page.deck }}
+      </p>
+      {% endif %}
+      <div class="content text-body-mobile tablet:text-body space-y-8">
+        {{ content }}
+      </div>
+    </div>
+  </div>
+</main>
+
+{% include email.html %} {% include join.html %}
