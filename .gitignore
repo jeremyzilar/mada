@@ -5,5 +5,3 @@ _site/
 .jekyll-metadata
 .DS_Store
 
-# PR Preview files
-/pr-preview/
