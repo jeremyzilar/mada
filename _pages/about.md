@@ -9,7 +9,7 @@ deck: "MADA is a collaboration of 11+ trusted local and regional non-profits and
 
 MADA will have a long term ground $1 annual lease with the City to rehabilitate and occupy 50,000 sq ft of abandoned buildings at Midtown. This is a significant investment by the City in the creative and cultural non-profit sector and was listed as a priority of the City’s Master Plan, which resulted from deep public engagement regarding the Midtown Site’s future.
 
-{% include common/button.html url="/assets/pdfs/Midtown-Master-Plan-202504.pdf" text="Download the Master Plan" type="small" %}
+{% include common/button.html url="https://drive.google.com/file/d/11Usm8v_3L7uK0GVrk0YhAAmApU9L7ZCM/view?usp=drive_link" text="Download the Master Plan" type="small" %}
 
 {% include common/button.html url="/partners" text="Download the Public Engagement Report" type="small" %}
 

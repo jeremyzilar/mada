@@ -26,7 +26,7 @@ MIDTOWN BLOCK PARTY VIDEO
 
 The City of Santa Fe developed a Master Plan for the project, which will dictate how redevelopment will occur on site. They are also committed to funding a Neighborhood Stabilization Plan to mitigate the impact on neighboring districts.
 
-{% include common/button.html url="/assets/pdfs/Midtown-Master-Plan-202504.pdf" text="Download the Master Plan" type="small" %}
+{% include common/button.html url="https://drive.google.com/file/d/11Usm8v_3L7uK0GVrk0YhAAmApU9L7ZCM/view?usp=drive_link" text="Download the Master Plan" type="small" %}
 
 ### Current Projects
 
