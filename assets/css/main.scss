@@ -51,4 +51,13 @@ header {
   h4 {
     @apply text-md font-black;
   }
+  ul {
+    @apply list-disc list-inside pl-4;
+  }
+  ol {
+    @apply list-decimal list-inside pl-4;
+  }
+  li {
+    @apply mb-4;
+  }
 }

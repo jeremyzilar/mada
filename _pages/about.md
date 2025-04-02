@@ -5,13 +5,13 @@ permalink: /about/
 deck: "MADA is a collaboration of 11+ trusted local and regional non-profits and cultural institutions providing opportunities to participate in and grow the Northern New Mexico creative economy, with a focus on youth, the urban Indigenous population, and emerging cultural entrepreneurs."
 ---
 
-{% include button.html url="/partners" text="Our Partners" %}
+{% include common/button.html url="/partners" text="Our Partners" %}
 
 MADA will have a long term ground $1 annual lease with the City to rehabilitate and occupy 50,000 sq ft of abandoned buildings at Midtown. This is a significant investment by the City in the creative and cultural non-profit sector and was listed as a priority of the City’s Master Plan, which resulted from deep public engagement regarding the Midtown Site’s future.
 
-{% include button.html url="/partners" text="Download the Master Plan" type="small" %}
+{% include common/button.html url="/assets/pdfs/Midtown-Master-Plan-202504.pdf" text="Download the Master Plan" type="small" %}
 
-{% include button.html url="/partners" text="Download the Public Engagement Report" type="small" %}
+{% include common/button.html url="/partners" text="Download the Public Engagement Report" type="small" %}
 
 {% include image.html
   src="/assets/images/mada.png"
@@ -27,4 +27,4 @@ As project stakeholders, MADA partners will contribute collectively to cover ope
 
 We hope to negotiate the long term ground lease with the City this summer and hope that you will show up to support the project!
 
-{% include button.html url="#" text="Provide a Letter of Support" type="small" %}
+{% include common/button.html url="https://airtable.com/appqw8aswti0sLc5B/shr1YV2qqkRyx684H" text="Provide a Letter of Support" type="small" %}

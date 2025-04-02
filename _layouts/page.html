@@ -2,7 +2,7 @@
 layout: default
 ---
 
-{% include header.html %}
+{% include common/header.html %}
 
 <main class="py-24 tablet:py-24 bg-[#F9F2EA]">
   <div class="px-5 tablet:px-24 desktop:px-32 desktop-lg:px-40">
@@ -14,6 +14,16 @@ layout: default
       <p class="text-heading-mobile tablet:text-heading font-black">
         {{ page.deck }}
       </p>
+      {% endif %} {% if page.nav %}
+      <div class="flex space-x-9">
+        {% for item in page.nav %}
+        <a
+          href="#{{ item.slug }}"
+          class="text-caption-mobile tablet:text-caption text-blue-600 font-mono uppercase"
+          >{{ item.text }}</a
+        >
+        {% endfor %}
+      </div>
       {% endif %}
       <div class="content text-body-mobile tablet:text-body space-y-8">
         {{ content }}

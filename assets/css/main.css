@@ -634,6 +634,10 @@ video {
   display: none;
 }
 
+.h-20 {
+  height: 5rem;
+}
+
 .h-96 {
   height: 24rem;
 }
@@ -648,6 +652,10 @@ video {
 
 .min-h-\[80vh\] {
   min-height: 80vh;
+}
+
+.w-20 {
+  width: 5rem;
 }
 
 .w-8 {
@@ -729,6 +737,10 @@ video {
   list-style-position: inside;
 }
 
+.list-decimal {
+  list-style-type: decimal;
+}
+
 .list-disc {
   list-style-type: disc;
 }
@@ -783,6 +795,12 @@ video {
   row-gap: 2.5rem;
 }
 
+.space-x-3 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(0.75rem * var(--tw-space-x-reverse));
+  margin-left: calc(0.75rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
 .space-x-6 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
   margin-right: calc(1.5rem * var(--tw-space-x-reverse));
@@ -831,6 +849,12 @@ video {
   margin-bottom: calc(6rem * var(--tw-space-y-reverse));
 }
 
+.space-y-3 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.75rem * var(--tw-space-y-reverse));
+}
+
 .space-y-6 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
@@ -843,8 +867,30 @@ video {
   margin-bottom: calc(2rem * var(--tw-space-y-reverse));
 }
 
+.space-y-4 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1rem * var(--tw-space-y-reverse));
+}
+
+.space-x-4 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(1rem * var(--tw-space-x-reverse));
+  margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.space-x-9 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(2.25rem * var(--tw-space-x-reverse));
+  margin-left: calc(2.25rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
 .whitespace-nowrap {
   white-space: nowrap;
+}
+
+.rounded-full {
+  border-radius: 9999px;
 }
 
 .rounded-md {
@@ -1123,6 +1169,11 @@ video {
   color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
+.text-blue-600 {
+  --tw-text-opacity: 1;
+  color: rgb(37 99 235 / var(--tw-text-opacity));
+}
+
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -1217,6 +1268,27 @@ header {
   }
   h4 {
     font-weight: 900;
+  }
+  ul {
+    list-style-position: inside;
+  }
+  ul {
+    list-style-type: disc;
+  }
+  ul {
+    padding-left: 1rem;
+  }
+  ol {
+    list-style-position: inside;
+  }
+  ol {
+    list-style-type: decimal;
+  }
+  ol {
+    padding-left: 1rem;
+  }
+  li {
+    margin-bottom: 1rem;
   }
 }
 
