@@ -15,14 +15,14 @@
 # in the templates via {{ site.myvariable }}.
 title: Midtown Arts and Design Alliance
 email: jeremyzilar@gmail.com
-tagline: "An experimental model for self-governance, co-programming, and resource-sharing between creative and cultural communities in Santa Fe’s Midtown."
-description: "An experimental model for self-governance, co-programming, and resource-sharing between creative and cultural communities in Santa Fe’s Midtown."
+tagline: "An experimental model for self-governance, co-programming, and resource-sharing between creative and cultural communities in Santa Fe's Midtown."
+description: "An experimental model for self-governance, co-programming, and resource-sharing between creative and cultural communities in Santa Fe's Midtown."
 image: /assets/media/opengraph.png
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://mada.sfai.org" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: ""
+url: "https://mada.sfai.org"
 github_username: jeremyzilar
 
-# include: ["_sections"]
+include: ["_pages"]
 
 # Build settings
 markdown: kramdown

@@ -1,0 +1,21 @@
+# Team
+
+- name: "Jamie Blosser"
+  bio: "Jamie Blosser is the Executive Director of MADA. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+  image: "jamie-blosser.jpg"
+
+- name: "Ray Example"
+  bio: "Ray Example is the Executive Director of MADA. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+  image: "ray-example.jpg"
+
+- name: "Tim Example"
+  bio: "Tim Example is the Executive Director of MADA. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+  image: "tim-example.jpg"
+
+- name: "John Example"
+  bio: "John Example is the Executive Director of MADA. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+  image: "john-example.jpg"
+
+- name: "Jane Example"
+  bio: "Jane Example is the Executive Director of MADA. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+  image: "jane-example.jpg"

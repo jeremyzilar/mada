@@ -1,2 +1,7 @@
 User-agent: *
-Disallow:
+Disallow: /about/
+Disallow: /partners/
+Disallow: /midtown/
+Disallow: /news/
+Disallow: /support/
+
