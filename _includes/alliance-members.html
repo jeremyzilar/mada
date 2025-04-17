@@ -6,9 +6,7 @@
     <div class="grid grid-cols-4 tablet:grid-cols-12 gap-0">
       <div class="col-span-4 tablet:col-span-12">
         <div class="space-y-12 tablet:space-y-20">
-          <h3
-            class="font-mono text-caption-mobile tablet:text-caption uppercase"
-          >
+          <h3 class="font-mono text-2xs tablet:text-sm uppercase">
             Current Alliance Members
           </h3>
           <div class="accordion">
@@ -17,19 +15,18 @@
               class="card py-8 border-t-[1px] border-black cursor-pointer tablet-lg:py-9 group relative"
             >
               <div class="absolute left-0 flex items-center justify-start w-8">
-                <span
-                  class="text-body-mobile tablet-lg:text-body font-normal text-right"
+                <span class="text-xs tablet-lg:text-md font-normal text-right"
                   >+</span
                 >
               </div>
               <div class="pl-16 tablet-lg:px-28 space-y-6 tablet-lg:space-y-8">
                 <h4
-                  class="text-body-mobile tablet-lg:text-body group-hover:underline group-hover:underline-offset-4"
+                  class="text-xs tablet-lg:text-md group-hover:underline group-hover:underline-offset-4"
                 >
                   <span>{{ item.title }}</span>
                 </h4>
                 <p
-                  class="text-caption-mobile tablet-lg:text-caption font-mono {% unless forloop.first %}hidden{% endunless %}"
+                  class="text-2xs tablet-lg:text-sm font-mono {% unless forloop.first %}hidden{% endunless %}"
                 >
                   {{ item.desc }}
                 </p>

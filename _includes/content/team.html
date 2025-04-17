@@ -12,19 +12,17 @@
             class="w-20 h-20 rounded-full"
           />
           <div class="flex flex-col space-y-3">
-            <p class="text-caption-mobile tablet-lg:text-caption font-mono">
-              {{ item.bio }}
-            </p>
+            <p class="text-2xs tablet-lg:text-sm font-mono">{{ item.bio }}</p>
             <p class="flex space-x-3">
               <a
                 href="mailto:{{ item.email }}"
-                class="text-caption-mobile tablet-lg:text-xs font-mono text-blue-600 uppercase"
+                class="text-2xs tablet-lg:text-xs font-mono text-blue-600 uppercase"
               >
                 Email
               </a>
               <a
                 href="{{ item.linkedin }}"
-                class="text-caption-mobile tablet-lg:text-xs font-mono text-blue-600 uppercase"
+                class="text-2xs tablet-lg:text-xs font-mono text-blue-600 uppercase"
               >
                 LinkedIn
               </a>

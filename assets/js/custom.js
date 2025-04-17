@@ -35,4 +35,49 @@ document.addEventListener("DOMContentLoaded", function () {
       document.body.style.overflow = isExpanded ? "" : "hidden";
     });
   }
+
+  // Smooth scroll to section when clicking hash links
+  document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+    anchor.addEventListener("click", function (e) {
+      e.preventDefault();
+      const targetId = this.getAttribute("href").slice(1);
+      const targetElement = document.getElementById(targetId);
+
+      if (targetElement) {
+        // Get the sticky header height (adjust this value if needed)
+        const headerOffset = 96; // Equivalent to top-24 (24 * 4)
+        const elementPosition = targetElement.getBoundingClientRect().top;
+        const offsetPosition =
+          elementPosition + window.pageYOffset - headerOffset;
+
+        window.scrollTo({
+          top: offsetPosition,
+          behavior: "smooth",
+        });
+
+        // Update URL without scrolling
+        history.pushState(null, "", `#${targetId}`);
+      }
+    });
+  });
+
+  // Handle initial hash in URL
+  if (window.location.hash) {
+    const targetId = window.location.hash.slice(1);
+    const targetElement = document.getElementById(targetId);
+
+    if (targetElement) {
+      setTimeout(() => {
+        const headerOffset = 96;
+        const elementPosition = targetElement.getBoundingClientRect().top;
+        const offsetPosition =
+          elementPosition + window.pageYOffset - headerOffset;
+
+        window.scrollTo({
+          top: offsetPosition,
+          behavior: "smooth",
+        });
+      }, 100);
+    }
+  }
 });

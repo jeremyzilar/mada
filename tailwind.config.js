@@ -9,32 +9,14 @@ module.exports = {
   ],
   theme: {
     fontSize: {
-      sm: ["1.25rem", { lineHeight: "1.6", letterSpacing: "0.06em" }],
-      md: ["1.5rem", { lineHeight: "1.5", letterSpacing: "0.02em" }],
+      "2xs": ["0.875rem", { lineHeight: "23.94px", letterSpacing: "0.06em" }],
+      xs: ["1rem", { lineHeight: "25.28px", letterSpacing: "0.02em" }],
+      sm: ["1.25rem", { lineHeight: "30.78px", letterSpacing: "0.06em" }],
+      md: ["1.5rem", { lineHeight: "37.92px", letterSpacing: "0.02em" }],
       lg: ["2rem", { lineHeight: "1.4", letterSpacing: "0.02em" }],
       xl: ["2.5rem", { lineHeight: "48.48px" }],
       "2xl": ["3rem", { lineHeight: "60.48px" }],
       "3xl": ["4rem", { lineHeight: "80.48px" }],
-      heading: ["2.5rem", { lineHeight: "48.48px" }],
-      body: ["1.5rem", { lineHeight: "37.68px", letterSpacing: "0.02em" }],
-      "body-bold": [
-        "1.5rem",
-        { lineHeight: "37.92px", letterSpacing: "0.02em" },
-      ],
-      caption: ["1.125rem", { lineHeight: "30.78px", letterSpacing: "0.06em" }], // 18px / 171
-      "heading-mobile": ["1.5rem", { lineHeight: "29.09px" }],
-      "body-mobile": [
-        "1rem",
-        { lineHeight: "25.28px", letterSpacing: "0.02em" },
-      ],
-      "body-bold-mobile": [
-        "1rem",
-        { lineHeight: "25.28px", letterSpacing: "0.02em" },
-      ],
-      "caption-mobile": [
-        "0.875rem",
-        { lineHeight: "23.94px", letterSpacing: "0.06em" },
-      ],
     },
     fontFamily: {
       sans: [
