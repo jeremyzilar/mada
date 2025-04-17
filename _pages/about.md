@@ -13,7 +13,7 @@ MADA will have a long term ground $1 annual lease with the City to rehabilitate 
 
 {% include common/button.html url="/partners" text="Download the Public Engagement Report" type="small" %}
 
-{% include image.html
+{% include common/image.html
   src="/assets/images/mada.png"
   alt="Description of the image"
   caption="This is the image caption that appears below the image"

@@ -60,6 +60,9 @@ header {
   li {
     @apply mb-4;
   }
+  blockquote {
+    @apply pl-6 border-l-4 border-gray-400 border-solid;
+  }
 }
 
 /* add the code bellow */

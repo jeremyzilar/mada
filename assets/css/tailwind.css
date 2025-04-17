@@ -649,7 +649,7 @@ video {
 .text-\[148px\] {
   font-size: 148px;
 }
-.text-md-bold-mobile,
+.text-md,
 .text-xs {
   font-size: 1rem;
   letter-spacing: 0.02em;
@@ -818,11 +818,11 @@ video {
     line-height: 37.68px;
   }
   .tablet\:text-md,
-  .tablet\:text-md-bold {
+  .tablet\:text-md {
     font-size: 1.5rem;
     letter-spacing: 0.02em;
   }
-  .tablet\:text-md-bold {
+  .tablet\:text-md {
     line-height: 37.92px;
   }
   .tablet\:text-sm {
