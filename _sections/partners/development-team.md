@@ -1,8 +1,7 @@
 ---
-title: Our People
-section_id: our-people
+title: Development Team
+section_id: development-team
 parent: partners
-deck: "TKTK"
 ---
 
 We also have a stellar team helping to fundraise, design, estimate, finance, and provide development expertise!
