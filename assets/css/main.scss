@@ -52,16 +52,19 @@ header {
     @apply text-md font-black;
   }
   ul {
-    @apply list-disc list-inside pl-4;
+    @apply list-disc pl-9;
   }
   ol {
-    @apply list-decimal list-inside pl-4;
+    @apply list-decimal pl-9;
   }
   li {
-    @apply mb-4;
+    @apply mb-4 pl-3;
   }
   blockquote {
     @apply pl-6 border-l-4 border-gray-400 border-solid;
+  }
+  hr {
+    @apply border-gray-800 border-t-2 border-solid w-1/2 h-2 mx-auto !my-20;
   }
 }
 
