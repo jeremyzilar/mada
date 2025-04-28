@@ -2,7 +2,18 @@
 layout: page
 title: Support
 permalink: /support/
-deck: "TKTK Support"
+deck: "This is a grassroots effort and we need your support! "
+nav:
+  - text: "Build with us"
+    slug: "build-with-us"
+  - text: "Donate"
+    slug: "donate"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Santa Fe has long been a city of visionaries — artists, designers, and creative entrepreneurs who shape culture and push boundaries. The Midtown Arts & Design Alliance (MADA) project is a once-in-a-lifetime opportunity to transform the city’s iconic Ricardo Legorreta buildings and historic WWII barracks into a busy campus for community and innovation.
+
+{% include common/image.html
+  src="/assets/images/mada_courtyard.jpg"
+  alt="Rendering of the future MADA Courtyard at dusk, showing people walking, sitting, and gathering around landscaped areas and a café with outdoor seating. A large movie is projected onto the red stucco facade of the building, surrounded by pathways, rocks, and flowering plants. The atmosphere is lively and welcoming."
+  caption="Rendering of the future MADA Courtyard at dusk, showing people walking, sitting, and gathering around landscaped areas and a café with outdoor seating. Credit: [Mass Design Group](https://www.instagram.com/massdesigngroup)"
+%}

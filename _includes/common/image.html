@@ -1,7 +1,9 @@
 <figure class="space-y-2 py-12">
   <img src="{{ include.src }}" alt="{{ include.alt }}" class="w-full" />
   {% if include.caption %}
-  <figcaption class="font-mono text-2xs tablet:text-xs text-[#6D6767] pr-16">
+  <figcaption
+    class="font-mono text-2xs tablet:text-xs text-[#6D6767] pt-2 pr-16"
+  >
     {{ include.caption | markdownify }}
   </figcaption>
   {% endif %}

@@ -66,6 +66,12 @@ header {
   hr {
     @apply border-gray-800 border-t-2 border-solid w-1/2 h-2 mx-auto !my-20;
   }
+  code {
+    @apply bg-white text-red-800 p-1 rounded;
+  }
+  pre {
+    @apply bg-white text-red-800 p-4 rounded;
+  }
 
   figure {
     figcaption {
