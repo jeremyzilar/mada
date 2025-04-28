@@ -66,6 +66,17 @@ header {
   hr {
     @apply border-gray-800 border-t-2 border-solid w-1/2 h-2 mx-auto !my-20;
   }
+
+  figure {
+    figcaption {
+      a {
+        @apply text-blue-500;
+        &:hover {
+          @apply text-blue-600;
+        }
+      }
+    }
+  }
 }
 
 /* add the code bellow */

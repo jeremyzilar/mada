@@ -1073,6 +1073,11 @@ video {
   padding-bottom: 2.5rem;
 }
 
+.py-12 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
 .py-2 {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
@@ -1148,6 +1153,14 @@ video {
 
 .pt-8 {
   padding-top: 2rem;
+}
+
+.pr-10 {
+  padding-right: 2.5rem;
+}
+
+.pr-16 {
+  padding-right: 4rem;
 }
 
 .text-center {
@@ -1419,6 +1432,20 @@ header {
     --tw-border-opacity: 1;
     border-color: rgb(31 41 55 / var(--tw-border-opacity));
   }
+  figure {
+    figcaption {
+      a {
+        --tw-text-opacity: 1;
+        color: rgb(59 130 246 / var(--tw-text-opacity));
+      }
+      a {
+        &:hover {
+          --tw-text-opacity: 1;
+          color: rgb(37 99 235 / var(--tw-text-opacity));
+        }
+      }
+    }
+  }
 }
 
 /* add the code bellow */
@@ -1589,6 +1616,12 @@ header {
   .tablet\:text-xl {
     font-size: 2.5rem;
     line-height: 48.48px;
+  }
+
+  .tablet\:text-xs {
+    font-size: 1rem;
+    line-height: 25.28px;
+    letter-spacing: 0.02em;
   }
 }
 

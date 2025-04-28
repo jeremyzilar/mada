@@ -6,23 +6,23 @@ deck: "MADA is a collaboration of 11+ trusted local and regional non-profits and
 ---
 
 {% include common/image.html
-  src="/assets/images/mada.png"
-  alt="Description of the image"
-  caption="This is the image caption that appears below the image"
+  src="/assets/images/dancer.png"
+  alt="A Native American hoop dancer performs outdoors, skillfully spinning bright yellow hoops. The dancer wears traditional attire with geometric patterns and a red headband, while an audience, many wearing masks, watches against the backdrop of the SFAI buildings."
+  caption="Credit: [Kaelyn Lynch](https://www.instagram.com/Kaelyn_Lynch)"
 %}
 
-MADA will rehabilitate and occupy 50,000 sq ft of abandoned buildings at Midtown, in partnership with the City of Santa Fe and as part of the City’s Midtown Master Plan.
+MADA will rehabilitate and occupy 50,000 sq ft of abandoned buildings at Midtown, in partnership with the City of Santa Fe and as part of the City's Midtown Master Plan.
 
 {% include common/button.html url="https://drive.google.com/file/d/11Usm8v_3L7uK0GVrk0YhAAmApU9L7ZCM/view?usp=drive_link" text="The City Midtown Master Plan" type="small" %}
 
-MADA is a significant investment in the creative and cultural non-profit sector and resulted from deep public engagement regarding the Midtown Site’s future.
+MADA is a significant investment in the creative and cultural non-profit sector and resulted from deep public engagement regarding the Midtown Site's future.
 
 {% include common/button.html url="/partners" text="Download the Public Engagement Report" type="small" %}
 
 {% include common/image.html
-  src="/assets/images/mada.png"
-  alt="Description of the image"
-  caption="This is the image caption that appears below the image"
+  src="/assets/images/barracks.jpg"
+  alt="A rendering of the lively outdoor plaza at MADA featuring the barracks buildings, children playing, people walking and biking, and a New Mexico state flag waving on a tall flagpole under a clear blue sky. The scene is landscaped with trees, plants, and a paved walkway."
+  caption="Credit: [Mass Design Group](https://www.instagram.com/massdesigngroup)"
 %}
 
 ### MADA is an innovative investment in smaller arts & culture non-profits and enterprises that bring new art, energy and ideas!
@@ -39,19 +39,19 @@ As project stakeholders, MADA partners will fully or partially relocate here, pa
 - **Workforce Training & Job Creation** – helping to upskill individuals for in-demand careers in the creative economy, with classes, apprenticeships, and training for all ages
 
 {% include common/image.html
-  src="/assets/images/mada.png"
-  alt="Description of the image"
-  caption="TIMELINE GOES HERE"
+  src="/assets/images/quote-raashan-spanish.png"
+  alt="A hand-written sign reading -- Economic factors such as housing and spaces for study hinder the prosperity of young artists. MADA can address these problems by offering affordable workspaces and fostering a creative community."
+  caption="“Economic factors such as housing and spaces for study hinder the prosperity of young artists. MADA can address these problems by offering affordable workspaces and fostering a creative community.” Photo by [Dylan Tenorio](https://www.instagram.com/Dylan_Tenorio)"
 %}
 
-### Our goal is to break ground on Phase 1 in Q1 2026, allowing move-in for 6 MADA partners to provide photography, design, and cultural activities, film and media programming, a community darkroom and printmaking studio, a youth-run café, and a children’s makerspace!
+### Our goal is to break ground on Phase 1 in Q1 2026, allowing move-in for 6 MADA partners to provide photography, design, and cultural activities, film and media programming, a community darkroom and printmaking studio, a youth-run café, and a children's makerspace!
 
 We will need City Council approval this summer on the long term ground lease - please show up to support this once-in-a-generation project!
 
 {% include common/button.html url="https://airtable.com/appqw8aswti0sLc5B/shr1YV2qqkRyx684H" text="Provide a Letter of Support" type="small" %}
 
 {% include common/image.html
-  src="/assets/images/mada.png"
-  alt="Description of the image"
-  caption="This is the image caption that appears below the image"
+  src="/assets/images/collated_accessibleProgram.png"
+  alt="A collage of community activities: a father and daughter admire a glowing light installation at night; people browse through art supplies at a busy indoor event; a group of masked teenagers collaborate on a hoop activity; students explore science with microscopes; children jump and play on an interactive digital floor; and adults engage in conversation while viewing artwork in a contemporary gallery."
+  caption=""
 %}
