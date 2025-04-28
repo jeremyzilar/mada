@@ -2,8 +2,10 @@
 layout: page
 title: The Site
 permalink: /the-site/
-deck: "MADA is located on the Midtown campus - formerly the College of Santa Fe and SF University of Art and Design - and now owned by the City of Santa Fe."
+deck: "At the center of Santa Fe sits a site — the Midtown Campus — that has served the city for generations. Known to most as the former College of Santa Fe and the succeeding Santa Fe University of Art and Design, the empty campus brims with potential that can be tapped again with inspired vision and leadership."
 ---
+
+The Midtown Arts and Design Alliance (MADA) will transform a critical four acres of the campus, repurposing 50,000 sq ft of striking buildings by Ricardo Legoretta and military barracks into an innovative arts and culture district unlike anything in the region.
 
 {% include common/image.html
   src="/assets/images/1943-map.png"
@@ -12,6 +14,13 @@ deck: "MADA is located on the Midtown campus - formerly the College of Santa Fe 
 %}
 
 Before this was a campus, the Brunns Military Hospital in World War II was located here, treating survivors - including survivors of the Bataan Death March. These barracks also served as a first home for the Institute for American Indian Arts (IAIA).
+
+{% include common/image.html
+  size="md"
+  src="/assets/images/last-barracks.jpeg"
+  alt="The last remaining military barracks and last remnant of this important history are in great structural condition and will become MAKE Santa Fe makerspace and Youthworks ecological and construction training spaces!"
+  caption="The last remaining military barracks and last remnant of this important history are in great structural condition and will become MAKE Santa Fe makerspace and Youthworks ecological and construction training spaces!"
+%}
 
 ### Visual Arts Center
 

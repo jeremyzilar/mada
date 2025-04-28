@@ -1,10 +1,29 @@
+{% if include.size == "md" %}
+<figure
+  class="py-8 flex flex-col tablet-lg:flex-row space-y-2 tablet-lg:space-x-8 tablet-lg:space-y-0"
+>
+  <img
+    src="{{ include.src }}"
+    alt="{{ include.alt }}"
+    class="w-full h-full tablet-lg:w-1/2"
+  />
+  {% if include.caption %}
+  <figcaption class="font-mono text-2xs tablet:text-xs text-[#6D6767] pt-2">
+    {{ include.caption | markdownify }}
+  </figcaption>
+  {% endif %}
+</figure>
+
+{% else %}
+
 <figure class="space-y-2 py-8">
   <img src="{{ include.src }}" alt="{{ include.alt }}" class="w-full" />
   {% if include.caption %}
   <figcaption
-    class="font-mono text-2xs tablet:text-xs text-[#6D6767] pt-2 pr-16"
+    class="font-mono text-2xs tablet:text-xs text-[#6D6767] pt-2 tablet-lg:pr-16"
   >
     {{ include.caption | markdownify }}
   </figcaption>
   {% endif %}
 </figure>
+{% endif %}
