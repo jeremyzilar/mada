@@ -6,11 +6,11 @@ parent: support
 
 **There are many ways you can build with us:**
 
-Stay informed about our progress and spread the word!
+**Subscribe to the MADA Newsletter:** Stay informed about our progress and spread the word!
 
 {% include common/button.html url="#" text="Subscribe to the MADA newsletter" type="small" %}
 
-Our City and State elected officials need to hear from you!
+**Provide a Letter of Support:** Our City and State elected officials need to hear from you!
 
 {% include common/button.html url="#" text="Say why you support MADA" type="small" %}
 

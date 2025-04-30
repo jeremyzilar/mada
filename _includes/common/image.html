@@ -1,6 +1,6 @@
 {% if include.size == "md" %}
 <figure
-  class="py-8 flex flex-col tablet-lg:flex-row space-y-2 tablet-lg:space-x-8 tablet-lg:space-y-0"
+  class="py-4 flex flex-col tablet-lg:flex-row space-y-2 tablet-lg:space-x-8 tablet-lg:space-y-0"
 >
   <img
     src="{{ include.src }}"
@@ -16,7 +16,7 @@
 
 {% else %}
 
-<figure class="space-y-2 py-8">
+<figure class="space-y-2 py-4">
   <img src="{{ include.src }}" alt="{{ include.alt }}" class="w-full" />
   {% if include.caption %}
   <figcaption
