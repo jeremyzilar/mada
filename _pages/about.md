@@ -5,23 +5,21 @@ permalink: /about/
 deck: "The Midtown Arts and Design Alliance (MADA), a collaboration of over 10 trusted local and regional non-profits and cultural institutions,  is a once-in-a-generation opportunity for significant investment in Santa Fe’s creative community, located at its geographical center, Midtown."
 ---
 
-MADA will provide accessible, all-ages community programming, bridge traditional and new approaches, and champion experiential and technology-driven art forms — creating a vibrant gathering and making space for artists, designers, and cultural entrepreneurs of all ages.
-
-By integrating job training and youth development with the arts, MADA will act as a connector to invaluable economic opportunities for creatives, young adults, aspiring entrepreneurs, families, and youth from all backgrounds.
-
 The civic moment in which Santa Fe finds itself calls for fresh ideas that can take root on a disinvested site like the Midtown Site. While our city serves as an artistic capital to the country, it faces steep challenges of widening inequality and limited opportunity for its young people. Many of our own artists and creatives struggle to feel like they belong.
 
 {% include common/image.html
   src="/assets/images/dancer.png"
   alt="A Native American hoop dancer performs outdoors, skillfully spinning bright yellow hoops. The dancer wears traditional attire with geometric patterns and a red headband, while an audience, many wearing masks, watches against the backdrop of the SFAI buildings."
-  caption="Hoop Dance Eric Hernandez at the 2021 Midtown Block Party. Photo by [Kaelyn Lynch](https://www.instagram.com/Kaelyn_Lynch)"
+  caption="Hoop Dance [Eric Hernandez](https://rootandseed.com/blogs/root-seed-podcast-season-6/eric-hernandez) at the 2021 Midtown Block Party. Photo by [Kaelyn Lynch](https://www.instagram.com/Kaelyn_Lynch)"
 %}
 
-MADA will rehabilitate and occupy 50,000 sq ft of abandoned buildings at Midtown, in partnership with the City of Santa Fe and as part of the City’s Midtown Master Plan.
+MADA will provide accessible, all-ages community programming, bridge traditional and new approaches, and champion experiential and technology-driven art forms — creating a vibrant gathering and making space for artists, designers, and cultural entrepreneurs of all ages.
+
+By integrating job training and youth development with the arts, MADA will act as a connector to invaluable economic opportunities for creatives, young adults, aspiring entrepreneurs, families, and youth from all backgrounds.
+
+MADA is the result of deep public engagement regarding the Midtown Site’s future. MADA partners will rehabilitate and occupy 50,000 sq ft of abandoned buildings at Midtown, with a long-term lease from the City of Santa Fe, as part of the City’s Midtown Master Plan.
 
 {% include common/button.html url="https://drive.google.com/file/d/11Usm8v_3L7uK0GVrk0YhAAmApU9L7ZCM/view?usp=drive_link" text="The City Midtown Master Plan" type="small" %}
-
-MADA is the result of deep public engagement regarding the Midtown Site’s future.
 
 {% include common/button.html url="/partners" text="Download the Public Engagement Report" type="small" %}
 
