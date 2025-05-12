@@ -4,7 +4,7 @@ section_id: development-team
 parent: partners
 ---
 
-We also have a stellar team helping to fundraise, design, estimate, finance, and provide development expertise!
+We have a stellar team helping to fundraise, design, estimate, finance, and provide development expertise!
 
 {% include content/team.html %}
 
