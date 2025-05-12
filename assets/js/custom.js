@@ -81,3 +81,32 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   }
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+  const bioTexts = document.querySelectorAll(".bio-text");
+  const readMoreBtns = document.querySelectorAll(".read-more-btn");
+
+  bioTexts.forEach((bioText, index) => {
+    const btn = readMoreBtns[index];
+    const originalText = bioText.textContent;
+
+    // Initially truncate text if it's longer than 150 characters
+    if (originalText.length > 150) {
+      bioText.textContent = originalText.substring(0, 150) + "...";
+      btn.style.display = "inline";
+    } else {
+      btn.style.display = "none";
+    }
+
+    btn.addEventListener("click", function () {
+      if (bioText.textContent.length <= 153) {
+        // 150 + '...'
+        bioText.textContent = originalText;
+        btn.textContent = "Read less";
+      } else {
+        bioText.textContent = originalText.substring(0, 150) + "...";
+        btn.textContent = "Read more";
+      }
+    });
+  });
+});
