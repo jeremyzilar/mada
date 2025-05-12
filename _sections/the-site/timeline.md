@@ -1,8 +1,7 @@
 ---
 title: Timeline
 section_id: timeline
-parent: midtown
-deck: "TKTK"
+parent: the-site
 ---
 
 In 1999, the Visual Arts Center buildings, designed by Mexico City architect Ricardo Legorreta, were constructed. These buildings were a partnership between the Santa Fe Art Institute and the College of Santa Fe. At the time, SFAI was looking for a permanent home and the College was seeking world-class arts facilities to enhance their arts curriculum.
@@ -15,8 +14,12 @@ In 2021, the City engaged the University of New Mexico Design and Planning Assis
 
 {% include common/button.html url="/partners" text="Download the Public Engagement Report" type="small" %}
 
-MIDTOWN BLOCK PARTY VIDEO
+### MADA Facilities
 
-The City of Santa Fe developed a Master Plan for the project, which will dictate how redevelopment will occur on site. They are also committed to funding a Neighborhood Stabilization Plan to mitigate the impact on neighboring districts.
+With Midtown land owned by the City, MADA will negotiate a long-term land lease and renovate and occupy over 50,000 square feet of the abandoned Visual Arts Center and Barracks. MADA has completed conditions assessments, cost estimates, and space planning for the following uses and shared programming. Phase 1 will redevelop 50% of the Visual Arts Center and allow move-in and operations for six MADA partners.
 
-{% include common/button.html url="https://drive.google.com/file/d/11Usm8v_3L7uK0GVrk0YhAAmApU9L7ZCM/view?usp=drive_link" text="Download the Master Plan" type="small" %}
+### Space Use & Programming
+
+- Visual Arts Center (35,000 sq ft): Renovated spaces will include artist studios, galleries, youth-run café, an Indigenous center, a community lecture auditorium and multi-purpose community center ad gallery, darkrooms, printmaking, and nonprofit office and collaboration spaces.
+- Barracks (17,000 sq ft): Renovated WWII structures will house youth ecological arts and construction training as well as expanded maker studios, including metal and wood workshops, plasma and laser cutters, metalsmithing and forging, and sewing and ceramic studios.
+- Landscape and High Performance Energy Improvements: The shared site will have a community food garden and improved outdoor film screening and gathering spaces. All renovated buildings will be electrified and photovoltaic panels installed, per the city’s master plan.

@@ -2,7 +2,6 @@
 title: Current Projects
 section_id: current-projects
 parent: midtown
-deck: "TKTK"
 ---
 
 MIDTOWN ARTS AND DESIGN ALLIANCE

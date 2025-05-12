@@ -2,10 +2,12 @@
 layout: page
 title: The Site
 permalink: /the-site/
-deck: "At the center of Santa Fe sits a site — the Midtown Campus — that has served the city for generations. Known to most as the former College of Santa Fe and the succeeding Santa Fe University of Art and Design, the empty campus brims with potential that can be tapped again with inspired vision and leadership."
+deck: "The Midtown Campus has served the city for generations. Known to most as the former College of Santa Fe and the succeeding Santa Fe University of Art and Design, the empty campus brims with potential that can be tapped again with inspired vision and leadership."
 nav:
   - text: "History"
     slug: "history"
+  - text: "Timeline"
+    slug: "timeline"
   - text: "The City Plan"
     slug: "city-plan"
 ---
