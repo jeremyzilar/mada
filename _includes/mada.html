@@ -2,20 +2,61 @@
   id="header"
   class="relative bg-[#fa8368] transform transform-origin-top-left scale-100"
 >
-  <div class="relative z-20 flex flex-col items-center justify-between h-full">
-    <h1
-      class="z-10 py-10 pb-2 pt-16 tablet:p-10 w-full font-black text-md tablet:text-md text-center tablet:text-left"
-    >
-      <a
-        class="no-underline hover:underline underline-offset-4"
-        href="{{ site.baseurl }}/"
-        accesskey="1"
-        title="MADA Home"
-        aria-label="{{ site.title }}"
+  <div class="relative z-20 flex flex-col h-full">
+    <div class="flex">
+      <!-- Hamburger Button -->
+      <button
+        id="menuButton"
+        class="pt-7 z-50 px-4 tablet:pl-8"
+        aria-label="Toggle Menu"
+        aria-expanded="false"
       >
-        {{ site.title }}
-      </a>
-    </h1>
+        <svg
+          class="w-6 h-6"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+        >
+          <path
+            class="menu-open"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M4 6h16M4 12h16M4 18h16"
+          />
+          <path
+            class="menu-close hidden"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M6 18L18 6M6 6l12 12"
+          />
+        </svg>
+      </button>
+      <h1
+        class="hidden tablet:block z-10 py-10 pb-2 pt-16 tablet:pr-10 tablet:pt-10 tablet:pb-2 font-black text-md tablet:text-md text-center tablet:text-left"
+      >
+        <a
+          class="no-underline hover:underline underline-offset-4"
+          href="{{ site.baseurl }}/"
+          accesskey="1"
+          title="MADA Home"
+          aria-label="{{ site.title }}"
+        >
+          {{ site.title }}
+        </a>
+      </h1>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div
+      id="mobileMenu"
+      class="fixed top-0 left-0 w-96 bg-white z-40 h-screen hidden"
+    >
+      <div class="h-full flex flex-col pt-24 px-8">
+        {% include common/nav.html mobile=true %}
+      </div>
+    </div>
     <div
       id="mada"
       class="h-full w-full flex items-center min-h-[80vh] tablet:min-h-[80vh] desktop:min-h-[90vh]"

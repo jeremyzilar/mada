@@ -1,8 +1,8 @@
 <nav
-  class="{% if include.mobile %}space-y-6{% else %}flex space-x-6{% endif %}"
+  class="{% if include.mobile %}space-y-6{% else %}px-4 py-2 flex justify-center tablet:px-10 {% endif %}"
 >
   <ul
-    class="{% if include.mobile %}flex flex-col space-y-6{% else %}flex space-x-6{% endif %} uppercase"
+    class="{% if include.mobile %}flex flex-col space-y-6{% else %}flex space-x-4 tablet:space-x-6{% endif %} uppercase"
   >
     {% for item in site.data.nav %}
     <li>
