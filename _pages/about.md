@@ -21,7 +21,7 @@ MADA is the result of deep public engagement regarding the Midtown Site’s futu
 
 {% include common/button.html url="https://drive.google.com/file/d/11Usm8v_3L7uK0GVrk0YhAAmApU9L7ZCM/view?usp=drive_link" text="The City Midtown Master Plan" type="small" %}
 
-{% include common/button.html url="/partners" text="Download the Public Engagement Report" type="small" %}
+{% include common/button.html url="/assets/media/DPAC_midtown_report.pdf" text="Download the Public Engagement Report" type="small" %}
 
 {% include common/image.html
   src="/assets/images/barracks.jpg"
