@@ -10,6 +10,11 @@ In 2009, the College of Santa Fe closed and the City purchased the entire 64 acr
 
 In 2021, the City engaged the University of New Mexico Design and Planning Assistance Center (UNM DPAC) to develop a Public Engagement Plan. DPAC engaged with nine local non-profits, known as the Midtown Engagement Partners (MEPs), who worked together on a consensus basis to reach over 3000 residents, many of whom were youth, Spanish speakers, or from low income households. The engagement with these residents formed the Public Engagement Report to the City, which the City turned into the Community Development Plan.
 
+{% include common/image.html
+src="/assets/images/mada-timeline.png"
+alt="A timeline for MADA"
+%}
+
 {% include common/button.html url="/assets/media/DPAC_midtown_report.pdf" text="Download the Public Engagement Report" type="small" %}
 
 ### MADA Facilities
