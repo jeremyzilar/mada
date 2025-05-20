@@ -14,9 +14,18 @@ Philanthropy is powerful when it’s collective. By stepping forward now, you’
 
 ### How to donate
 
-Please reach out to Jamie Blosser at [mada@sfai.org](mailto:mada@sfai.org) or `505.660.5890` to discuss a large matching challenge gift! You can also donate the following ways:
+If you're inspired to make a gift toward the match challenge of $5,000 or more, we invite you to connect directly with **Jamie Blosser** to explore how your contribution can make a lasting impact. Jamie can be reached at [mada@sfai.org](mailto:mada@sfai.org) or by phone at `505.660.5890`.
+
+You can also donate in the following ways:
 
 - Send a check to:<br/>Midtown Arts and Design Alliance LLC<br/>
   369 Montezuma #631<br/>
   Santa Fe, NM 87501
 - Stock Transfer or Donor Advised Fund: Contact Jamie Blosser at [mada@sfai.org](mailto:mada@sfai.org)
+- [Donate online »](https://givebutter.com/wW3cZD)
+
+{% include common/image.html
+  src="/assets/images/marion_courtyard.jpg"
+  alt="Rendering of the Phase 1 MADA courtyard and community room."
+  caption="Rendering of the Phase 1 MADA courtyard and community room. Credit: [Mass Design Group](https://www.instagram.com/massdesigngroup)"
+%}

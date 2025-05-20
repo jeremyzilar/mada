@@ -15,8 +15,8 @@ Before this was a campus, the Brunns Military Hospital in World War II was locat
 {% include common/image.html
   size="md"
   src="/assets/images/last-barracks.jpeg"
-  alt="The last remaining military barracks and last remnant of this important history are in great structural condition and will become MAKE Santa Fe makerspace and Youthworks ecological and construction training spaces!"
-  caption="The last remaining military barracks and last remnant of this important history are in great structural condition and will become MAKE Santa Fe makerspace and Youthworks ecological and construction training spaces!"
+  alt="The last remaining military barracks - and last remnant of this important history- are in great structural condition to become MAKE Santa Fe makerspace and Youthworks ecological and construction training spaces!"
+  caption="The last remaining military barracks - and last remnant of this important history- are in great structural condition to become MAKE Santa Fe makerspace and Youthworks ecological and construction training spaces!"
 %}
 
 ### Visual Arts Center
@@ -36,3 +36,5 @@ In 1999, the Visual Arts Center buildings, designed by renowned Mexican architec
 %}
 
 The MADA project resulted from deep public engagement regarding the Midtown Site’s future. Many MADA partners and other local non-profits worked with the City and the UNM Design and Planning Assistance Center (UNM DPAC) to develop a Public Engagement Plan. Together we reached over 3000 residents, including many youth, Spanish speakers, and families from low income households, through events such as the 2021 Midtown Block Party, and provided a Public Engagement Report to the City.
+
+{% include common/button.html url="/assets/media/DPAC_midtown_report.pdf" text="Download the Public Engagement Report" type="small" %}

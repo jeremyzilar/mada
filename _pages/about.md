@@ -13,11 +13,11 @@ The civic moment in which Santa Fe finds itself calls for fresh ideas that can t
   caption="Hoop Dance [Eric Hernandez](https://rootandseed.com/blogs/root-seed-podcast-season-6/eric-hernandez) at the 2021 Midtown Block Party. Photo by [Kaelyn Lynch](https://www.instagram.com/Kaelyn_Lynch)"
 %}
 
-MADA will provide accessible, all-ages community programming, bridge traditional and new approaches, and champion experiential and technology-driven art forms — creating a vibrant gathering and making space for artists, designers, and cultural entrepreneurs of all ages.
+MADA provides accessible, all-ages community programming, bridges traditional and new approaches, and champions experiential and technology-driven art forms — creating a vibrant gathering and making space for artists, designers, and cultural entrepreneurs of all ages.
 
-By integrating job training and youth development with the arts, MADA will act as a connector to invaluable economic opportunities for creatives, young adults, aspiring entrepreneurs, families, and youth from all backgrounds.
+By integrating job training and youth development with the arts, MADA acts to connect invaluable economic opportunities for creatives, young adults, aspiring entrepreneurs, families, and youth from all backgrounds.
 
-MADA is the result of deep public engagement regarding the Midtown Site’s future. MADA partners will rehabilitate and occupy 50,000 sq ft of abandoned buildings at Midtown, with a long-term lease from the City of Santa Fe, as part of the City’s Midtown Master Plan.
+MADA is the result of deep public engagement regarding the Midtown Site’s future and has been developed as an initiative of the [Santa Fe Art Institute](https://sfai.org), a 501c3. MADA partners will rehabilitate and occupy 50,000 sq ft of abandoned buildings at Midtown, with a long-term lease from the City of Santa Fe, as part of the City’s Midtown Master Plan.
 
 {% include common/button.html url="https://drive.google.com/file/d/11Usm8v_3L7uK0GVrk0YhAAmApU9L7ZCM/view?usp=drive_link" text="The City Midtown Master Plan" type="small" %}
 
@@ -39,13 +39,13 @@ As project stakeholders, MADA partners will fully or partially relocate here, pa
 
 - **Youth & Community Engagement** – internships and youth-led programming including a café, and a multi-purpose community room and lecture hall available to the public
 - **Culture, Heritage & Health** – supporting all arts including traditional cultural practices, new media and technology, the culinary and healing arts, and ecological and construction arts
-- **Affordable Arts & Culture Programs** – bringing over 10,000 residents and visitors annually to studios, galleries, makerspaces, lectures, performances, and events, and community spaces
+- **Affordable Arts & Culture Programs** – bringing over 10,000 residents and visitors annually to studios, galleries, makerspaces, lectures, performances, events, and community spaces
 - **Workforce Training & Job Creation** – helping to upskill individuals for in-demand careers in the creative economy, with classes, apprenticeships, and training for all ages
 
 {% include common/image.html
   src="/assets/images/quote-raashan-spanish.png"
   alt="A hand-written sign reading -- Economic factors such as housing and spaces for study hinder the prosperity of young artists. MADA can address these problems by offering affordable workspaces and fostering a creative community."
-  caption="“Economic factors such as housing and spaces for study hinder the prosperity of young artists. MADA can address these problems by offering affordable workspaces and fostering a creative community.” Photo by [Dylan Tenorio](https://www.instagram.com/Dylan_Tenorio)"
+  caption="“Economic factors such as housing and spaces for study hinder the prosperity of young artists. MADA can address these problems by offering affordable workspaces and fostering a creative community.” Photo by [Dylan Tenorio](https://www.littleglobe.org/people)"
 %}
 
 ### Our goal is to break ground on Phase 1 in Q1 2026, allowing move-in for six MADA partners to provide photography, design, and cultural activities, film and media programming, a community darkroom and printmaking studio, a youth-run café, and a children’s makerspace!
