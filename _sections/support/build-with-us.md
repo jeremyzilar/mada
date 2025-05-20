@@ -8,7 +8,7 @@ parent: support
 
 **Subscribe to the MADA Newsletter:** Stay informed about our progress and spread the word!
 
-{% include common/button.html url="https://airtable.com/appqw8aswti0sLc5B/shrYudmooE37pTNtB" text="Subscribe to the MADA newsletter" type="small" %}
+{% include common/button.html url="https://green-penguin-46547.myflodesk.com/tsjp0avfkj" text="Subscribe to the MADA newsletter" type="small" %}
 
 **Provide a Letter of Support:** Our City and State elected officials need to hear from you!
 
