@@ -44,7 +44,29 @@
 
     <div class="grid grid-cols-4 tablet:grid-cols-12 gap-0">
       <div class="col-span-4 tablet:col-span-12">
-        <p class="text-[12px] font-normal text-gray-300">© 2025 MADA LLC</p>
+        <div
+          class="flex flex-col tablet:flex-row justify-between items-start tablet:items-center space-y-2 tablet:space-y-0"
+        >
+          <p class="text-[12px] font-normal text-gray-300">© 2025 MADA LLC</p>
+          {% assign edit_url = "https://github.com/" | append: site.github_org |
+          append: "/" | append: site.github_repo %} {% if page.layout == "home"
+          %} {% assign edit_url = edit_url | append: "/edit/main/index.md" %} {%
+          elsif page.layout == "page" %} {% if page.path contains "_pages/" %}
+          {% assign edit_url = edit_url | append: "/edit/main/" | append:
+          page.path %} {% elsif page.path contains "_sections/" %} {% assign
+          edit_url = edit_url | append: "/edit/main/" | append: page.path %} {%
+          else %} {% assign edit_url = edit_url | append: "/edit/main/" |
+          append: page.path %} {% endif %} {% else %} {% assign edit_url =
+          edit_url | append: "/edit/main/" | append: page.path %} {% endif %}
+          <a
+            href="{{ edit_url }}"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-[12px] font-normal text-gray-600 hover:text-gray-500 transition-colors duration-200"
+          >
+            Edit
+          </a>
+        </div>
       </div>
     </div>
   </div>
