@@ -4,7 +4,7 @@ MADA is a bold model for creative and cultural communities to share governance, 
 
 ---
 
-## Development
+## Getting Started
 
 https://github.com/jeremyzilar/mada
 
