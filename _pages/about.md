@@ -17,7 +17,7 @@ MADA provides accessible, all-ages community programming, bridges traditional an
 
 By integrating job training and youth development with the arts, MADA acts to connect invaluable economic opportunities for creatives, young adults, aspiring entrepreneurs, families, and youth from all backgrounds.
 
-MADA is the result of deep public engagement regarding the Midtown Site’s future and has been developed as an initiative of the [Santa Fe Art Institute](https://sfai.org), a 501c3. MADA partners will rehabilitate and occupy 50,000 sq ft of abandoned buildings at Midtown, with a long-term lease from the City of Santa Fe, as part of the City’s Midtown Master Plan.
+MADA is the result of deep public engagement regarding the Midtown Site’s future. MADA partners will rehabilitate and occupy 50,000 sq ft of abandoned buildings at Midtown, with a long-term lease from the City of Santa Fe, as part of the City’s Midtown Master Plan.
 
 {% include common/button.html url="https://drive.google.com/file/d/11Usm8v_3L7uK0GVrk0YhAAmApU9L7ZCM/view?usp=drive_link" text="The City Midtown Master Plan" type="small" %}
 
