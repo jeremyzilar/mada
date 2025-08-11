@@ -6,9 +6,9 @@ MADA is a bold model for creative and cultural communities to share governance, 
 
 ## Getting Started
 
-
-
 ### Editing pages in GitHub
+
+If you need help with formatting, use [StackEdit](https://stackedit.io/app#) to write and format in Markdown.
 
 - Edit pages: https://github.com/jeremyzilar/mada/tree/main/_pages
 - Edit Events: https://github.com/jeremyzilar/mada/blob/main/_data/events.yml
@@ -17,7 +17,6 @@ MADA is a bold model for creative and cultural communities to share governance, 
 2. Commit changes
 3. Wait 1-2 mins
 4. Hard refresh in your browser `command + shift + r`
-
 
 ### To get set up locally:
 
