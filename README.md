@@ -6,9 +6,20 @@ MADA is a bold model for creative and cultural communities to share governance, 
 
 ## Getting Started
 
-https://github.com/jeremyzilar/mada
 
-**To get set up locally:**
+
+### Editing pages in GitHub
+
+- Edit pages: https://github.com/jeremyzilar/mada/tree/main/_pages
+- Edit Events: https://github.com/jeremyzilar/mada/blob/main/_data/events.yml
+
+1. Make your edits
+2. Commit changes
+3. Wait 1-2 mins
+4. Hard refresh in your browser `command + shift + r`
+
+
+### To get set up locally:
 
 ```
 $ yarn install
