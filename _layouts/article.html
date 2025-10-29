@@ -1,0 +1,45 @@
+---
+layout: default
+---
+
+{% include common/header.html %}
+
+<main class="py-24 tablet-lg:py-24 bg-[#F9F2EA]">
+  <div class="px-5 tablet-lg:px-16 desktop:px-32 desktop-lg:px-40 pb-20">
+    <div class="space-y-12 tablet-lg:space-y-12">
+      <p class="font-mono text-2xs tablet-lg:text-sm uppercase">
+        {{ page.kicker }}
+      </p>
+
+      <h1 class="text-md tablet-lg:text-2xl font-black">{{ page.title }}</h1>
+      <p class="font-mono text-xs tablet-lg:text-sm uppercase">
+        By Jamie Blosser, Midtown Arts and Design Alliance
+      </p>
+      {% if page.related_instagram %}
+      <div
+        class="hidden tablet-lg:block instagram-embed tablet-lg:float-right tablet-lg:ml-12 pt-8 tablet-lg:pt-0 mb-8 tablet-lg:mb-20 w-full tablet-lg:w-1/3"
+      >
+        {% include content/instagram-embed.html url=page.related_instagram %}
+      </div>
+      {% endif %}
+      <p class="content text-xs tablet-lg:text-sm">
+        <em
+          >{{ page.canonical_text }}
+          <a
+            href="{{ page.canonical_url }}"
+            target="_blank"
+            class="underline underline-offset-4 text-blue-600"
+          >
+            Read it there »
+          </a>
+        </em>
+      </p>
+      <div
+        class="content text-xs tablet-lg:text-md space-y-8 flex flex-col tablet-lg:block"
+      >
+        {{ content }}
+      </div>
+    </div>
+  </div>
+</main>
+{% include homepage/partners.html %} {% include homepage/email-signup.html %}
