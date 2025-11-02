@@ -5,7 +5,7 @@ title: Inclusive Creative Spaces Build Stronger Communities - It’s time Santa 
 permalink: /mada-now/
 canonical_text: "Originally published as an OpEd in the Santa Fe New Mexican on Sunday, November 2, 2025."
 canonical_url: https://www.santafenewmexican.com/opinion/my_view/santa-fe-invest-in-your-people-for-a-strong-community/article_689be792-78a5-422f-aa62-64c2169d36af.html
-related_instagram: https://www.instagram.com/p/DQWiUXljju3/?utm_source=ig_embed&utm_campaign=loading
+related_instagram: https://www.instagram.com/p/DQju5tlDheu/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
 ---
 
 Santa Fe has a chance to prove that our city can turn vision into reality. Midtown isn’t just another parcel for development. It’s an investment in people, purpose, and possibility.
