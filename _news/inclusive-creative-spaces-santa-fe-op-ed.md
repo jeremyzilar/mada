@@ -1,11 +1,14 @@
 ---
-layout: article
-kicker: "Op-Ed"
 title: Inclusive Creative Spaces Build Stronger Communities - It’s time Santa Fe Invests in Its People.
-permalink: /mada-now/
-canonical_text: "Originally published as an OpEd in the Santa Fe New Mexican on Sunday, November 2, 2025."
-canonical_url: https://www.santafenewmexican.com/opinion/my_view/santa-fe-invest-in-your-people-for-a-strong-community/article_689be792-78a5-422f-aa62-64c2169d36af.html
-related_instagram: https://www.instagram.com/p/DQju5tlDheu/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+date: 2025-11-02
+author: Jamie Blosser, Midtown Arts and Design Alliance
+republished_note: "Originally published as an OpEd in the Santa Fe New Mexican on Sunday, November 2, 2025."
+republished_url: "https://www.santafenewmexican.com/opinion/my_view/santa-fe-invest-in-your-people-for-a-strong-community/article_689be792-78a5-422f-aa62-64c2169d36af.html"
+related_instagram: "https://www.instagram.com/p/DQju5tlDheu/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+show_partners: true
+redirect_from:
+  - /mada-now/
+  - /mada-now
 ---
 
 Santa Fe has a chance to prove that our city can turn vision into reality. Midtown isn’t just another parcel for development. It’s an investment in people, purpose, and possibility.

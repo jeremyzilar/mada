@@ -1,6 +1,8 @@
 # Nav
 # List links that should appear in the Footer
 
+- title: "News"
+  slug: "news"
 - title: "About"
   slug: "about"
 - title: "Partners"

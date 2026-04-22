@@ -1,0 +1,10 @@
+News featured images and story assets live here.
+
+Suggested layout (one folder per story, same name as the `_news/*.md` basename):
+  assets/images/news/<basename>/featured.jpg
+
+Reference in front matter:
+  featured_image: /assets/images/news/<basename>/featured.jpg
+
+Optional alt text:
+  featured_image_alt: "Describe the image for screen readers."

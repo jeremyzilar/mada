@@ -27,6 +27,15 @@ include: ["_pages"]
 collections:
   sections:
     output: false
+  news:
+    output: true
+    permalink: /news/:name/
+
+defaults:
+  - scope:
+      path: "_news"
+    values:
+      layout: news_post
 
 # Build settings
 markdown: kramdown
@@ -36,6 +45,7 @@ plugins:
   - jekyll-postcss
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-redirect-from
 
 sass:
   sass_dir: _sass

@@ -1,0 +1,97 @@
+---
+layout: default
+---
+
+{% include common/header.html %}
+
+<main class="py-24 tablet-lg:py-24 bg-[#F9F2EA]">
+  <div class="px-5 tablet-lg:px-16 desktop:px-32 desktop-lg:px-40 pb-20">
+    <div class="space-y-12 tablet-lg:space-y-12">
+      <p class="font-mono text-2xs tablet-lg:text-sm uppercase">
+        <a
+          href="{{ '/news/' | relative_url }}"
+          class="underline underline-offset-4 hover:opacity-80"
+          >News</a
+        >
+        · {{ page.date | date: "%B %-d, %Y" }}
+      </p>
+
+      {% if page.featured_link %}
+        {% assign featured_url = page.featured_link | strip %}
+        {% assign featured_host = featured_url | replace: "https://", "" | replace: "http://", "" | split: "/" | first | split: "?" | first | split: "#" | first %}
+        {% capture featured_link_label %}Visit {{ featured_host }}{% endcapture %}
+        <div class="pt-2">
+          {% include common/button.html
+            type="small"
+            url=featured_url
+            text=featured_link_label
+            target="_blank"
+            rel="noopener noreferrer"
+          %}
+        </div>
+      {% endif %}
+
+      {% if page.featured_image %}
+      <figure class="space-y-2 -mx-5 tablet-lg:mx-0">
+        <img
+          src="{{ page.featured_image | relative_url }}"
+          alt="{{ page.featured_image_alt | default: page.title | escape }}"
+          class="w-full"
+        />
+      </figure>
+      {% endif %}
+
+      <h1 class="text-md tablet-lg:text-2xl font-black">{{ page.title }}</h1>
+
+      {% if page.deck %}
+      <p class="text-md tablet-lg:text-xl font-black">{{ page.deck }}</p>
+      {% endif %}
+
+      <p class="font-mono text-xs tablet-lg:text-sm">
+        By {{ page.author }}
+      </p>
+
+      {%- comment -%}
+        Group embed + attribution + body so parent space-y-12 does not insert large
+        margins between siblings (that breaks float wrapping beside the Instagram embed).
+      {%- endcomment -%}
+      <div class="space-y-4 tablet-lg:space-y-0">
+        {% if page.related_instagram %}
+        <div
+          class="hidden tablet-lg:block instagram-embed tablet-lg:float-right tablet-lg:ml-12 pt-8 tablet-lg:pt-0 mb-8 tablet-lg:mb-20 w-full tablet-lg:w-1/3"
+        >
+          {% include content/instagram-embed.html url=page.related_instagram %}
+        </div>
+        {% endif %}
+
+        {% if page.republished_url and page.republished_note %}
+        <p class="content text-xs tablet-lg:text-sm">
+          <em
+            >{{ page.republished_note }}
+            <a
+              href="{{ page.republished_url }}"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="underline underline-offset-4 text-blue-600"
+            >
+              Read it there »
+            </a>
+          </em>
+        </p>
+        {% endif %}
+
+        <div
+          class="content text-xs tablet-lg:text-md space-y-8 flex flex-col tablet-lg:block"
+        >
+          {{ content }}
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+{% if page.show_partners %}
+  {% include homepage/partners.html %}
+{% endif %}
+
+{% include homepage/email-signup.html %}

@@ -4,6 +4,22 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
   {% seo title=false %}
+  {% comment %}
+    jekyll-seo-tag reads `image`, not `featured_image`. When only the latter is set
+    (e.g. news posts), add Open Graph / Twitter image tags here.
+  {% endcomment %}
+  {% if page.featured_image %}
+    {% unless page.image %}
+      {% assign _fi = page.featured_image | absolute_url %}
+      <meta property="og:image" content="{{ _fi }}" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta property="twitter:image" content="{{ _fi }}" />
+      {% if page.featured_image_alt %}
+        <meta property="og:image:alt" content="{{ page.featured_image_alt | escape }}" />
+        <meta name="twitter:image:alt" content="{{ page.featured_image_alt | escape }}" />
+      {% endif %}
+    {% endunless %}
+  {% endif %}
 
   <title>{{ site.title }} (MADA)</title>
 
@@ -39,8 +55,6 @@
 
   <!-- icons -->
   <link rel="shortcut icon" href="/assets/img/favicons/apple-touch-icon.png" />
-
-  <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
 </head>
 <!-- Google tag (gtag.js) -->
 <script

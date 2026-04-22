@@ -22,18 +22,21 @@ layout: default
         {% include content/instagram-embed.html url=page.related_instagram %}
       </div>
       {% endif %}
+      {% if page.republished_url and page.republished_note %}
       <p class="content text-xs tablet-lg:text-sm">
         <em
-          >{{ page.canonical_text }}
+          >{{ page.republished_note }}
           <a
-            href="{{ page.canonical_url }}"
+            href="{{ page.republished_url }}"
             target="_blank"
+            rel="noopener noreferrer"
             class="underline underline-offset-4 text-blue-600"
           >
             Read it there »
           </a>
         </em>
       </p>
+      {% endif %}
       <div
         class="content text-xs tablet-lg:text-md space-y-8 flex flex-col tablet-lg:block"
       >
