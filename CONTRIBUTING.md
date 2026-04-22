@@ -29,13 +29,25 @@ Note the **site path** you will put in front matter, for example:
 
 `/assets/images/news/spring-fundraiser-2026/featured.jpg`
 
+### Copy as Markdown from Google Docs
+
+Google Docs can put **Markdown on your clipboard** so you can paste the story body into GitHub without messy HTML. Full details are in Google’s help: [Use Markdown in Google Docs](https://support.google.com/docs/answer/12014036?hl=en).
+
+1. Open your document in **Google Docs on the web** (desktop).
+2. Turn Markdown copy/paste on: **Tools → Preferences**, then check **Enable Markdown** (this unlocks **Copy as Markdown** and **Paste from Markdown** in the right-click menu; it may be off by default).
+3. **Select** the text you want (a section, or **Edit → Select all** for the whole story body—do not include your YAML front matter; you will type that separately in GitHub).
+4. **Right-click** the selection and choose **Copy as Markdown**.
+5. In GitHub, when you create or edit the `.md` file, paste **below** the closing `---` of the front matter. Skim the result: fix any odd headings or links, and remember that **images** still need to be uploaded under `assets/images/news/<basename>/` (Step 2) and referenced with `![alt](/assets/images/news/.../file.jpg)` in the Markdown.
+
+**Whole document at once:** You can also use **File → Download → Markdown (.md)**, open the downloaded file, copy the body portion, and paste into GitHub the same way.
+
 ### Step 3: Create the news Markdown file
 
 1. Go back to [`_news`](https://github.com/jeremyzilar/mada/tree/main/_news).
 2. Click **Add file** → **Create new file**.
 3. Name the file `<basename>.md` (for example `spring-fundraiser-2026.md`).
 4. Copy the **front matter template** below into the editor, then fill in every value.
-5. Below the closing `---`, write the body of the article in Markdown (headings, paragraphs, lists, links, etc.).
+5. Below the closing `---`, paste or write the article body in Markdown (for Google Docs, use **Copy as Markdown** as described above).
 6. Click **Commit new file** (or **Propose new file** / open a **pull request**, depending on your permissions).
 
 ### Front matter template (copy everything between the lines)
