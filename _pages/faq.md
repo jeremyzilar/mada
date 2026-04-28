@@ -7,7 +7,7 @@ deck: "Frequently asked questions about the Midtown Arts and Design Alliance (MA
 
 ### 1. What is MADA?
 
-The Midtown Arts and Design Alliance (MADA) is an initiative led by the Santa Fe Art Institute, a nonprofit organization, and over 10 nonprofit partners and educational institutions. The project will repurpose 50,000 square feet of the Midtown site's striking buildings by Ricardo Legoretta and military barracks into an arts and culture community center, anchoring an emerging new neighborhood district. These buildings have been abandoned and de-commissioned for 8 years and is a $25 million, multi-phased renovation through a public-private-partnership with the City of Santa Fe. When complete, MADA will be a vibrant hub that fosters creativity, promotes economic growth, and strengthens the community by providing space for creatives and nonprofits to collaborate and thrive. 
+The Midtown Arts and Design Alliance (MADA) is an initiative led by the Santa Fe Art Institute, a nonprofit organization, and over 10 nonprofit partners and educational institutions. The project will repurpose 50,000 square feet of the Midtown site's striking buildings by Ricardo Legoretta and military barracks into an arts and culture community center, anchoring an emerging new neighborhood district. These buildings have been abandoned and de-commissioned for 8 years and the MADA project is a $25 million, multi-phased renovation through a public-private-partnership with the City of Santa Fe. When complete, MADA will be a vibrant hub that fosters creativity, promotes economic growth, and strengthens the community by providing space for creatives and nonprofits to collaborate and thrive. 
 
 ### 2. Who is in the "Alliance" and what does that mean?
 
@@ -25,7 +25,7 @@ Our name reflects a collaborative spirit in partnership with more than 10 highly
 
 ### 4. What makes MADA so unique?
 
-MADA is a unique, public-private project with support and partnership from the City of Santa Fe through a long term ground lease, State of New Mexico through capital outlay funds, significant philanthropic support, and programing and tenant partnerships with multiple community organizations. Nothing else like it exists in New Mexico. The plan is modeled after successful community redevelopment projects in other states that are accessible, sustainable, and beneficial for the entire community. 
+MADA is a unique, public-private project with support and partnership from the City of Santa Fe through a long term ground lease, State of New Mexico capital outlay funds, significant philanthropic support, and programing and tenant partnerships with multiple community organizations. Nothing else like it exists in New Mexico. The plan is modeled after successful community redevelopment projects in other states that are accessible, sustainable, and beneficial for the entire community. 
 
 ### 5. What kind of community programming will be at MADA?
 
@@ -33,15 +33,19 @@ Programming will include a makerspace for all ages, printmaking and darkroom fac
 
 ### 6. Are you redeveloping all of Midtown?
 
-No. MADA's scope includes the Visual Arts Center buildings and barracks constructed for the Brunns Military Hospital during WW II, which is approximately 4 acres out of the 64-acre Midtown site that used to be the College of Santa Fe and Santa Fe University of Art and Design. The City of Santa Fe is responsible for the other 60 acres of development within Midtown, including investing in infrastructure, parks and a plaza. We are excited to be neighbors with Aspect Media Village, Sky Cinemas Midtown, Tenderfire Restaurant, Wise Fool, Exodus Ensemble, and the New Mexico Tech Innovation Hub! We are also excited that the City plans to sell or lease additional parcels on the Midtown site, and expects to support development for over 1000 homes on the Midtown site!
+No. MADA's scope includes the Visual Arts Center buildings and barracks constructed for the Brunns Military Hospital during WW II, which is approximately 4 acres out of the 64-acre Midtown site that used to be the College of Santa Fe and Santa Fe University of Art and Design. 
+
+The City of Santa Fe is responsible for the other 60 acres of development within Midtown, including over $70 million in new infrastructure for roads, utilities, stormwater management, a park and a plaza - this will all support the full redevelopment of the Midtown site. The City expects to support development for over 1000 homes on the Midtown site!
+
+We are excited that redevelopment is already underway and that we have great neighbors such as Aspect Media Village, Sky Cinemas Midtown, Tenderfire Restaurant, Wise Fool, Exodus Ensemble, and the New Mexico Tech Innovation Hub! 
 
 ### 7. Is MADA purchasing property on the Midtown site?
 
-No. Our plan will lease the City property through a long-term ground lease for 50 years at $1 per year. This allows us to sublease to partner organizations and creative enterprises at below-market rents that provide them with long-term sustainability. MADA is raising needed capital to renovate and improve the City-owned buildings as a form of civic infrastructure and investment in our social sector. The City plans to invest over $70 million in new infrastructure for roads, utilities, and stormwater management, to support the full redevelopment of the Midtown site.
+No. MADA will have a long-term ground lease for 50 years at $1 per year. This allows us to sublease to partner organizations and creative enterprises at below-market rents that provide them with long-term sustainability. MADA is raising needed capital to renovate and improve the City-owned buildings as a form of civic infrastructure and investment in our social sector. 
 
 ### 8. What is the current status of the project?
 
-The MADA Ground Lease is going through the City Hall process! Mayor Michael Garcia is sponsoring legislation, with co-sponsors Councilors Pilar Faulkner and Jamie Cassutt, for MADA's Ground Lease to be approved by the Governing Body. MADA's Ground Lease will be introduce on April 29, Public Comments will be on May 13, Committee meetings will be between May 18-26, and the Governing Body will vote on the MADA Ground Lease on June 10.
+The MADA Ground Lease is going through the City Hall process! Mayor Michael Garcia is sponsoring legislation, with co-sponsors Councilors Pilar Faulkner and Jamie Cassutt, for MADA's Ground Lease to be approved by the Governing Body. MADA's Ground Lease will be introduced on April 29, Public Comments will be on May 13, Committee meetings will be between May 18-26, and the Governing Body will vote on the MADA Ground Lease on June 10.
 
 ### 9. How can the public support this project?
 
@@ -71,16 +75,12 @@ Once the project is "greenlit" by the City, we will hit the ground running in Ju
 
 **November 2024:** MADA completed all financial analyses, building reports, and cost estimates, and began negotiating a long-term ground lease with the new Metropolitan Redevelopment Agency (MRA).
 
-**December 2024:** The Governing Body extended the ENA to allow continued negotiation of MADA's Ground Lease and Development Agreement (GLDA) and approved the sale of City property to Aspect Film Studios – the first (and currently the only) Midtown redevelopment project.
+**December 2024:** The Governing Body extended the ENA to allow continued negotiation of MADA's Ground Lease and Development Agreement (GLDA) and approved the sale of City property to Aspect Film Studios as the first Midtown redevelopment project.
 
 **January–August 2025:** MADA advanced capital fundraising, public communications, and events while awaiting a legal document from the City.
 
 **June 2025:** The ENA extension expired; MADA continued good-faith work with the City.
 
-**July 2025:** The MRA director resigned over lack of City support.
-
 **August 2025:** MADA received a draft legal document to negotiate with remaining MRA staff, the City Manager, and City Attorney. 
 
 **January 2026:** MADA and the City completed negotiations on the Ground Lease and Development Agreement.
-
-**April - June 2026:**  
