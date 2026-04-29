@@ -26,7 +26,7 @@ The Midtown Arts and Design Alliance (MADA) is an initiative led by the Santa Fe
 
 ### 5. Who is in the "Alliance" and what does that mean?
 
-Our name reflects a collaborative spirit in partnership with more than 10 highly respected organizations that will wholly or partially relocate to Midtown when the buildings are renovated. The group includes CENTER, Creative Startups, Girls Inc., Little Globe, Make Santa Fe, MASS Design Group, Santa Fe Indigenous Center, and UNM's College of Fine Art, School of Architecture and Planning, and School of Continuing Education, as well as Vital Spaces and YouthWorks.
+Our name reflects a collaborative spirit in partnership with more than 10 highly respected organizations that will wholly or partially relocate to Midtown when the buildings are renovated. The group includes CENTER, Creative Startups, Girls Inc., Little Globe, Make Santa Fe, MASS Design Group, Santa Fe Indigenous Center, and UNM's College of Fine Art, School of Architecture and Planning, and School of Continuing Education, as well as Vital Spaces and YouthWorks. Learn more about these organizations and what they plan to do at MADA [here] (https://mada.sfai.org/partners/).
 
 If you know the work of these organizations, you know they are AMAZING. The Governing Body would love to hear how you support them and MADA both!
 
