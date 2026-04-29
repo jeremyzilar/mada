@@ -20,17 +20,20 @@ They typically allow public comment at 7 PM during City Council meetings, when t
 
 We have provided information on the project and **talking points below**, for you to put in your own words. We want to pack the room with all of our supporters and friends. The City Council agenda typically also provides a link for comments by people on Zoom, so even if you are out of town you can support us!
 
-### 4. OK, but what exacty is MADA?
+### 4. What is the full City approvals process and timeline? 
+The MADA Ground Lease and Develompent Agreement (GLDA) is introduced on April 29 Governing Body, sponsored by Mayor Michael Garcia, with co-sponsors Councilors Pilar Faulkner and Jamie Cassutt. As noted above, Public Comments will be on May 13, Committee meetings will be between May 18-26, and the Governing Body will vote on the MADA Ground Lease on June 10.
+
+### 5. OK, but what exacty is MADA?
 
 The Midtown Arts and Design Alliance (MADA) is an initiative led by the Santa Fe Art Institute, a nonprofit organization, and over 10 nonprofit partners and educational institutions. The project will repurpose 50,000 square feet of the Midtown site's striking buildings by Ricardo Legoretta and military barracks into an arts and culture community center, anchoring an emerging new neighborhood district. These buildings have been abandoned and de-commissioned for 8 years and the MADA project is a $25 million, multi-phased renovation through a public-private-partnership with the City of Santa Fe. When complete, MADA will be a vibrant hub that fosters creativity, promotes economic growth, and strengthens the community by providing space for creatives and nonprofits to collaborate and thrive. 
 
-### 5. Who is in the "Alliance" and what does that mean?
+### 6. Who is in the "Alliance" and what does that mean?
 
 Our name reflects a collaborative spirit in partnership with more than 10 highly respected organizations that will wholly or partially relocate to Midtown when the buildings are renovated. The group includes CENTER, Creative Startups, Girls Inc., Little Globe, Make Santa Fe, MASS Design Group, Santa Fe Indigenous Center, and UNM's College of Fine Art, School of Architecture and Planning, and School of Continuing Education, as well as Vital Spaces and YouthWorks. Learn more about these organizations and what they plan to do at MADA [here] (https://mada.sfai.org/partners/).
 
 If you know the work of these organizations, you know they are AMAZING. The Governing Body would love to hear how you support them and MADA both!
 
-### 6. Why is this project important?
+### 7. Why is this project important?
 
 **Community Programming:** This is the first project from the Midtown Master Plan that is based on public engagement feedback and slated specifically for community use! Organizational partners are committed to providing over $3.5m in annual programming to the local community, serving residents of all ages with a focus on youth and the local Indigenous community. 
 
@@ -42,15 +45,15 @@ If you know the work of these organizations, you know they are AMAZING. The Gove
 
 **Amazing Organizations:** As noted above, our partner organizations are AMAZING and they deserve to have lower operational costs because they collectively provide over $3.5m in annual programming to our local community! 
 
-### 7. What makes MADA so unique?
+### 8. What makes MADA so unique?
 
 MADA is a unique, public-private project with support and partnership from the City of Santa Fe through a long term ground lease, State of New Mexico capital outlay funds, significant philanthropic support, and programing and tenant partnerships with multiple community organizations. Nothing else like it exists in New Mexico. The plan is modeled after successful community redevelopment projects in other states that are accessible, sustainable, and beneficial for the entire community. 
 
-### 8. What kind of community programming will be at MADA?
+### 9. What kind of community programming will be at MADA?
 
 Programming will include a makerspace for all ages, printmaking and darkroom facilities, a youth-run job training café, design and construction training for youth, film and multi-media storytelling, plus ongoing lectures, workshops, classes, and civic events. There will also be opportunities for the local community to use spaces such as a large community room, meeting rooms, and lecture hall for workshops, screenings, readings, talks, meetings, and other gatherings. As we move forward, we will also open our doors to more interested and vision-aligned organizations and enterprises looking to relocate to Midtown, so spread the word!
 
-### 9. Are you redeveloping all of Midtown?
+### 10. Are you redeveloping all of Midtown?
 
 No. MADA's scope includes the Visual Arts Center buildings and barracks constructed for the Brunns Military Hospital during WW II, which is approximately 4 acres out of the 64-acre Midtown site that used to be the College of Santa Fe and Santa Fe University of Art and Design. 
 
@@ -58,42 +61,9 @@ The City of Santa Fe is responsible for the other 60 acres of development within
 
 We are excited that redevelopment is already underway and that we have great neighbors such as Aspect Media Village, Sky Cinemas Midtown, Tenderfire Restaurant, Wise Fool, Exodus Ensemble, and the New Mexico Tech Innovation Hub! 
 
-### 10. What are next steps after City approvals?
-
-The MADA Ground Lease is going through the City Hall process! Mayor Michael Garcia is sponsoring legislation, with co-sponsors Councilors Pilar Faulkner and Jamie Cassutt, for MADA's Ground Lease to be approved by the Governing Body. MADA's Ground Lease will be introduced on April 29, Public Comments will be on May 13, Committee meetings will be between May 18-26, and the Governing Body will vote on the MADA Ground Lease on June 10.
-
-### 11. Besides public comment on May 13, how else can the public support this project?
-
-Please check out different ways you can support the project [here] (https://mada.sfai.org/support/). And thank you!
-
-### 12. What are next steps for MADA?
-
+### 11. What are next steps after City approvals?
 Once the project is "greenlit" by the City, we will hit the ground running in June! We have an expanded new team and are moving forward with completing construction documents, acquiring building permits, and starting construction. We are also moving forward with fundraising and expect to launch renovations of the first phase later this year. 
 
-### 13. What has been the timeline for the project?
+### 12. Besides public comment on May 13, how else can the public support this project?
 
-**2018:** The Santa Fe University of Art and Design closed, leaving the campus vacant. SFAI remained as an independent nonprofit on site.
-
-**2019:** MADA formed as an SFAI initiative and submitted a winning proposal to the City's Request for Expressions of Interest with KDC/Cienda. The City agreement with KDC/Cienda was later terminated.
-
-**2020–2021:** SFAI led extensive community input sessions in partnership with UNM's Department of Architecture and Design, the City, and several nonprofits, with funding by the National Endowment for the Arts.
-
-**Spring 2022:** Final community recommendations, including many from youth, low income residents, and Spanish speakers, informed the Midtown Master Plan.
-
-**Fall 2022:** The Governing Body approved the Master Plan and issued an RFP for the Visual Arts Center for "Cultural Community-Oriented Use."
-
-**March 2023:** MADA responded to the RFP for adaptive reuse of the Visual Arts Center and adjacent barracks.
-
-**August 2023:** The Governing Body approved MADA's bid and executed an Exclusive Negotiation Agreement (ENA) for MADA to conduct feasibility and due diligence.
-
-**November 2024:** MADA completed all financial analyses, building reports, and cost estimates, and began negotiating a long-term ground lease with the new Metropolitan Redevelopment Agency (MRA).
-
-**December 2024:** The Governing Body extended the ENA to allow continued negotiation of MADA's Ground Lease and Development Agreement (GLDA) and approved the sale of City property to Aspect Film Studios as the first Midtown redevelopment project.
-
-**January–August 2025:** MADA advanced capital fundraising, public communications, and events while awaiting a legal document from the City.
-
-**June 2025:** The ENA extension expired; MADA continued good-faith work with the City.
-
-**August 2025:** MADA received a draft legal document to negotiate with remaining MRA staff, the City Manager, and City Attorney. 
-
-**January 2026:** MADA and the City completed negotiations on the Ground Lease and Development Agreement.
+Please check out different ways you can support the project [here] (https://mada.sfai.org/support/). And thank you!
