@@ -2,10 +2,27 @@
 layout: page
 title: FAQ
 permalink: /faq/
-deck: "Frequently asked questions about the Midtown Arts and Design Alliance (MADA) project"
+deck: "Frequently asked questions about the Midtown Arts and Design Alliance (MADA) project and how to support MADA"
 ---
 
-### 1. What is MADA?
+### 1. Why does the Midtown Arts and Design Alliance (MADA) need approvals from the City of Santa Fe Governing Body?
+MADA needs approval from the City of Santa Fe Governing Body because the City owns the Midtown Site and the buildings that MADA proposes to revitalize. MADA will have a long-term ground lease for 50 years at $1, in exchange for raising needed capital to renovate and improve these City-owned buildings. MADA's long-term ground lease will allow MADA to then sublease to partner organizations and creative enterprises, which provide amazing programming and benefits to the local community, at below-market rents that provide them with long-term sustainability. This is a public-private partnership that is an investment in our social sector and civic infrastructure. 
+
+### 2. How can I help to support MADA through the City approvals process?
+
+Strong community support and attendance at the May 13 Governing Body meeting is critical! Please come to City Hall at 7 PM for public comment and make sure the Governing Body sees strong community support! Make sure that you have signed up for the MADA newsletter, where we will be providing critical updates, [here](https://green-penguin-46547.myflodesk.com/tsjp0avfkj). 
+
+### 3. What do you mean by "provide public comment"?
+
+The Governing Body allows for public comment on important decisions in front of them, so that they can see whether their constituents support or do not support a project or piece of legislation. 
+
+They typically allow public comment at 7 PM during City Council meetings, when they ask everyone to line up behind the podium to speak. Every speaker is allowed 2 minutes maximum to state why they support or don't support a project. 
+
+We have provided information on the project and talking points below, for you to put in your own words. We want to pack the room with all of our supporters and friends. The City Council agenda typically also provides a link for comments by people on Zoom, so even if you are out of town you can support us!
+
+deck: "Frequently asked questions about the Midtown Arts and Design Alliance (MADA) project"
+
+### 1. OK, but what exacty is MADA?
 
 The Midtown Arts and Design Alliance (MADA) is an initiative led by the Santa Fe Art Institute, a nonprofit organization, and over 10 nonprofit partners and educational institutions. The project will repurpose 50,000 square feet of the Midtown site's striking buildings by Ricardo Legoretta and military barracks into an arts and culture community center, anchoring an emerging new neighborhood district. These buildings have been abandoned and de-commissioned for 8 years and the MADA project is a $25 million, multi-phased renovation through a public-private-partnership with the City of Santa Fe. When complete, MADA will be a vibrant hub that fosters creativity, promotes economic growth, and strengthens the community by providing space for creatives and nonprofits to collaborate and thrive. 
 
@@ -39,25 +56,21 @@ The City of Santa Fe is responsible for the other 60 acres of development within
 
 We are excited that redevelopment is already underway and that we have great neighbors such as Aspect Media Village, Sky Cinemas Midtown, Tenderfire Restaurant, Wise Fool, Exodus Ensemble, and the New Mexico Tech Innovation Hub! 
 
-### 7. Is MADA purchasing property on the Midtown site?
-
-No. MADA will have a long-term ground lease for 50 years at $1 per year. This allows us to sublease to partner organizations and creative enterprises at below-market rents that provide them with long-term sustainability. MADA is raising needed capital to renovate and improve the City-owned buildings as a form of civic infrastructure and investment in our social sector. 
-
-### 8. What is the current status of the project?
+### 7. What is the current status of the project?
 
 The MADA Ground Lease is going through the City Hall process! Mayor Michael Garcia is sponsoring legislation, with co-sponsors Councilors Pilar Faulkner and Jamie Cassutt, for MADA's Ground Lease to be approved by the Governing Body. MADA's Ground Lease will be introduced on April 29, Public Comments will be on May 13, Committee meetings will be between May 18-26, and the Governing Body will vote on the MADA Ground Lease on June 10.
 
-### 9. How can the public support this project?
+### 8. How can the public support this project?
 
 Strong community support and attendance at the May 13 Governing Body meeting is critical! Please come to City Hall at 7 PM for public comment and make sure the Governing Body sees strong community support!
 
 You can also sign a letter of support [here](https://airtable.com/appqw8aswti0sLc5B/shr1YV2qqkRyx684H) or reach out to the Governing Body directly [here](https://www.santafenm.gov/governing_body).
 
-### 10. What are next steps?
+### 9. What are next steps?
 
 Once the project is "greenlit" by the City, we will hit the ground running in June! We are moving forward with completing construction documents, acquiring building permits, and starting construction. We are also moving forward with fundraising and expect to launch renovations of the first phase later this year. 
 
-### 11. What has been the timeline for the project?
+### 10. What has been the timeline for the project?
 
 **2018:** The Santa Fe University of Art and Design closed, leaving the campus vacant. SFAI remained as an independent nonprofit on site.
 
