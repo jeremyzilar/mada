@@ -1,13 +1,21 @@
 # Nav
 # List links that should appear in the Footer
 
-- title: "Midtown Meetup"
+# - title: "Midtown Meetup"
+#   desc: "Join us for Midtown Meetups at the MADA Offices, the last Friday of each month, between 8:30-10 AM. Enjoy coffee from Ohori’s and chat with Midtown partners to learn about projects and opportunities."
+#   date: "Friday, August 29"
+#   time: "8:30-10 AM"
+#   cost: "Free"
+#   location: "MADA Offices at the Santa Fe Art Institute"
+#   map: "https://maps.app.goo.gl/EVAjCmJydmdFMj6F7"
+#   url: "https://givebutter.com/KX5MLD"
+
+- title: "Santa Fe City Council Meeting - Public Comment on MADA"
   desc: "Join us for Midtown Meetups at the MADA Offices, the last Friday of each month, between 8:30-10 AM. Enjoy coffee from Ohori’s and chat with Midtown partners to learn about projects and opportunities."
-  date: "Friday, August 29"
-  time: "8:30-10 AM"
-  cost: "Free"
-  location: "MADA Offices at the Santa Fe Art Institute"
-  map: "https://maps.app.goo.gl/EVAjCmJydmdFMj6F7"
-  url: "https://givebutter.com/KX5MLD"
-
-
+  date: "Wednesday, May 13th"
+  time: "5PM start, public comment around 7PM"
+  cost: "Free, open to the public"
+  location: "Santa Fe City Council Chambers, 200 Lincoln Ave"
+  map: "https://maps.app.goo.gl/XiTNhnSzZRxAzZaT7"
+  url: "/assets/media/MADA-public-comment-flyer.pdf"
+  button_text: "Download the flyer"
