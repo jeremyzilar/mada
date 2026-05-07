@@ -83,8 +83,11 @@
             {{ item.cost }}
           </span>
         </p>
-        {% include common/button.html url=item.url text="Join us" type="small"
-        %}
+        {% if item.button_text %}
+          {% include common/button.html url=item.url text=item.button_text type="small" target="_blank" %}
+        {% else %}
+          {% include common/button.html url=item.url text="Join us" type="small" %}
+        {% endif %}
       </div>
     </div>
     {% endfor %}
