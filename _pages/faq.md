@@ -18,7 +18,7 @@ The Governing Body allows for public comment on important decisions in front of 
 
 They typically allow public comment at 7 PM during City Council meetings, when they ask everyone to line up behind the podium to speak. Every speaker is allowed 2 minutes maximum to state why they support or don't support a project. 
 
-We have provided information on the project and **talking points below**, for you to put in your own words. We want to pack the room with all of our supporters and friends. The City Council agenda typically also provides a link for comments by people on Zoom, so even if you are out of town you can support us!
+We have provided information on the project and [**talking points**](/assets/media/MADA-public-comment-flyer.pdf){:target="_blank" rel="noopener"}, for you to put in your own words. We want to pack the room with all of our supporters and friends. The City Council agenda typically also provides a link for comments by people on Zoom, so even if you are out of town you can support us!
 
 ### 4. What is the full City approvals process and timeline? 
 The MADA Ground Lease and Develompent Agreement (GLDA) is introduced on April 29 Governing Body, sponsored by Mayor Michael Garcia, with co-sponsors Councilors Pilar Faulkner and Jamie Cassutt. As noted above, Public Comments will be on May 13, Committee meetings will be between May 18-26, and the Governing Body will vote on the MADA Ground Lease on June 10.
