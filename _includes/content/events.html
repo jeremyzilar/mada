@@ -9,6 +9,13 @@
           <span>{{ item.title }}</span>
         </h4>
         <p class="text-sm tablet-lg:text-md">{{ item.desc }}</p>
+        {% if item.agenda_url or item.zoom_url %}
+        <p class="text-sm tablet-lg:text-sm font-mono">
+          {% if item.agenda_url %}<a href="{{ item.agenda_url }}" target="_blank" class="text-blue-600 underline">View the agenda</a>{% endif %}
+          {% if item.agenda_url and item.zoom_url %} &nbsp;|&nbsp; {% endif %}
+          {% if item.zoom_url %}<a href="{{ item.zoom_url }}" target="_blank" class="text-blue-600 underline">Join on Zoom</a>{% endif %}
+        </p>
+        {% endif %}
 
         <p class="text-sm tablet-lg:text-sm font-mono">
           <span class="inline-flex items-center">
