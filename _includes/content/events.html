@@ -5,6 +5,9 @@
       class="card {% unless forloop.first %}border-t-[1px] border-black{% endunless %} py-8 tablet-lg:py-9 relative"
     >
       <div class="space-y-6 tablet-lg:space-y-8">
+        {% if item.image %}
+        <img src="{{ item.image }}" alt="{{ item.title }}" class="w-full rounded" />
+        {% endif %}
         <h4 class="text-md tablet-lg:text-xl">
           <span>{{ item.title }}</span>
         </h4>
