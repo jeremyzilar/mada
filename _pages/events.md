@@ -2,7 +2,7 @@
 layout: page
 title: Events
 permalink: /events/
-deck: "Upcoming events"
+deck: "Capture the Moment — June 26"
 ---
 
 {% include content/events.html %}
